@@ -10,5 +10,5 @@ entries:
     name: cost-analyzer
     urls:
     - cost-analyzer-stage-test.tgz
-    version: stage-test
+    version: 0.0.2
 generated: "2020-03-10T22:37:20.485839501Z"
