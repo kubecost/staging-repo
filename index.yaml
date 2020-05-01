@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   cost-analyzer:
   - apiVersion: v1
+    appVersion: 0.0.83
+    created: "2020-05-01T21:28:48.610073898Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2b55ff467336546e14e1a979aae860935214e44e030374851262e61f600c885b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.83.tgz
+    version: 0.0.83
+  - apiVersion: v1
     appVersion: 0.0.82
-    created: "2020-05-01T14:52:32.924287489Z"
+    created: "2020-05-01T21:28:48.600482539Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: ca26ef60d44d18b563d7f1cb3beab70a60bffbaaa8daee675fc33b4ed22bdab6
@@ -13,7 +23,7 @@ entries:
     version: 0.0.82
   - apiVersion: v1
     appVersion: 0.0.81
-    created: "2020-05-01T14:52:32.91914601Z"
+    created: "2020-05-01T21:28:48.593525589Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: c24ce022cd8ed1e8dbe7cac295e67506aec571f650e328ea898a6c3465498db3
@@ -23,7 +33,7 @@ entries:
     version: 0.0.81
   - apiVersion: v1
     appVersion: 0.0.80
-    created: "2020-05-01T14:52:32.913594538Z"
+    created: "2020-05-01T21:28:48.586619723Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 32df4fdb86e218add6a9d07a5ac9e61483342abe7340a5afd0d0c3deb6b7358b
@@ -33,7 +43,7 @@ entries:
     version: 0.0.80
   - apiVersion: v1
     appVersion: 0.0.79
-    created: "2020-05-01T14:52:32.909426465Z"
+    created: "2020-05-01T21:28:48.580045851Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: aad802f9103d14467235eef7f7af78eb1b29aa3e905bc669dc395ef7bfa23467
@@ -43,7 +53,7 @@ entries:
     version: 0.0.79
   - apiVersion: v1
     appVersion: 0.0.78
-    created: "2020-05-01T14:52:32.903614299Z"
+    created: "2020-05-01T21:28:48.551698742Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: f18b6618b913bfb0eae1fe364cc90c6ba6465b7271bc0d3ab93a305940b894bf
@@ -53,7 +63,7 @@ entries:
     version: 0.0.78
   - apiVersion: v1
     appVersion: 0.0.77
-    created: "2020-05-01T14:52:32.899272611Z"
+    created: "2020-05-01T21:28:48.545817645Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 5dcb58aed5c442145edf7eddd4bb12dd90a66ef060af47fcedbd8e3ca5285c1f
@@ -63,7 +73,7 @@ entries:
     version: 0.0.77
   - apiVersion: v1
     appVersion: 0.0.76
-    created: "2020-05-01T14:52:32.894002525Z"
+    created: "2020-05-01T21:28:48.539484025Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 159fd32932bc5dcb34bcf9297cdde3a98de8592781da6bfd2fd06e1b45aa9e40
@@ -73,7 +83,7 @@ entries:
     version: 0.0.76
   - apiVersion: v1
     appVersion: 0.0.75
-    created: "2020-05-01T14:52:32.888832177Z"
+    created: "2020-05-01T21:28:48.533578105Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 4256cb2763a66a4812f6d0904ebc58f74da8441db9418e983af3319f1c192259
@@ -83,7 +93,7 @@ entries:
     version: 0.0.75
   - apiVersion: v1
     appVersion: 0.0.74
-    created: "2020-05-01T14:52:32.884646515Z"
+    created: "2020-05-01T21:28:48.526836382Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: b3b586f84f9131f7aaf6b6c0c8f2188f04265e545d9e25350d5e4e09316dc6d2
@@ -93,7 +103,7 @@ entries:
     version: 0.0.74
   - apiVersion: v1
     appVersion: 0.0.73
-    created: "2020-05-01T14:52:32.879558614Z"
+    created: "2020-05-01T21:28:48.521467062Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 0c47a3acd83fd4b3eaf4dafa72838f77e2fe5e12e2b40c3eb134b5945355bf5d
@@ -103,7 +113,7 @@ entries:
     version: 0.0.73
   - apiVersion: v1
     appVersion: 0.0.72
-    created: "2020-05-01T14:52:32.874516704Z"
+    created: "2020-05-01T21:28:48.516806523Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 9a8cf590e9d20f9331a2261922f5580e9fd0bd46eadb857342de5776ce731bbe
@@ -113,7 +123,7 @@ entries:
     version: 0.0.72
   - apiVersion: v1
     appVersion: 0.0.71
-    created: "2020-05-01T14:52:32.870329864Z"
+    created: "2020-05-01T21:28:48.511151096Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: e4e197e601de5890c4bb26aabb059223e0326fab916394c56fb80ca785bd0e72
@@ -123,7 +133,7 @@ entries:
     version: 0.0.71
   - apiVersion: v1
     appVersion: 0.0.70
-    created: "2020-05-01T14:52:32.865225638Z"
+    created: "2020-05-01T21:28:48.50560875Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: dfb629ed4ee5d77379229b53fca31af8bbc1b1db4e61fd87849dc1093db98b8b
@@ -133,7 +143,7 @@ entries:
     version: 0.0.70
   - apiVersion: v1
     appVersion: 0.0.69
-    created: "2020-05-01T14:52:32.860711825Z"
+    created: "2020-05-01T21:28:48.500444848Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 4b36842e401ee01009529bf882fc3ecac6196d456ec6dd1d8cfc1483e913580b
@@ -143,7 +153,7 @@ entries:
     version: 0.0.69
   - apiVersion: v1
     appVersion: 0.0.68
-    created: "2020-05-01T14:52:32.855640012Z"
+    created: "2020-05-01T21:28:48.494427008Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 2af0ff0b5738139eae27128e7bf5ffda0e8ac75f39059f2957206fe484bab0e8
@@ -153,7 +163,7 @@ entries:
     version: 0.0.68
   - apiVersion: v1
     appVersion: 0.0.67
-    created: "2020-05-01T14:52:32.850513423Z"
+    created: "2020-05-01T21:28:48.488846488Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 1c053ee5e2a309bffdbdda6707c0348dbe487631b5e360620b2637bd145ebff5
@@ -163,7 +173,7 @@ entries:
     version: 0.0.67
   - apiVersion: v1
     appVersion: 0.0.66
-    created: "2020-05-01T14:52:32.846351198Z"
+    created: "2020-05-01T21:28:48.463402647Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: cabb3e3fc8ab6f0924be0fb0ae45a268b4decf23580338d88ff4324adebe7e24
@@ -173,7 +183,7 @@ entries:
     version: 0.0.66
   - apiVersion: v1
     appVersion: 0.0.65
-    created: "2020-05-01T14:52:32.841128024Z"
+    created: "2020-05-01T21:28:48.457522026Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: fd4f1adfc2d5821de57a21125e1f0e570fec0494a2e2f9f84e446a8d2a8e64de
@@ -183,7 +193,7 @@ entries:
     version: 0.0.65
   - apiVersion: v1
     appVersion: 0.0.64
-    created: "2020-05-01T14:52:32.835934174Z"
+    created: "2020-05-01T21:28:48.451060486Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: d12f9e0be905401c6400d4bf07950c215c24e2c6bf8d522feeeed096ea47a6d5
@@ -193,7 +203,7 @@ entries:
     version: 0.0.64
   - apiVersion: v1
     appVersion: 0.0.63
-    created: "2020-05-01T14:52:32.831758698Z"
+    created: "2020-05-01T21:28:48.446584327Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 0f3e521c382bec8718ffabec7b62288e58d5d0e063dbbb5fe8ec3decaa9b08e4
@@ -203,7 +213,7 @@ entries:
     version: 0.0.63
   - apiVersion: v1
     appVersion: 0.0.62
-    created: "2020-05-01T14:52:32.826345291Z"
+    created: "2020-05-01T21:28:48.441449893Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 983c94fb81b4f165ba58b326d19874f72c27fd2025950c234beae021b4dcd33b
@@ -213,7 +223,7 @@ entries:
     version: 0.0.62
   - apiVersion: v1
     appVersion: 0.0.61
-    created: "2020-05-01T14:52:32.821011594Z"
+    created: "2020-05-01T21:28:48.436481942Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 271b9615fd48fc220c01cd4ee216acf2cc338c30e1c8dc2154e8b574b901bf65
@@ -223,7 +233,7 @@ entries:
     version: 0.0.61
   - apiVersion: v1
     appVersion: 0.0.60
-    created: "2020-05-01T14:52:32.816835075Z"
+    created: "2020-05-01T21:28:48.407417156Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 5db705f5e904a1d249712516203ddbeb27668b752c437ea534a2bb4460d8f21f
@@ -233,7 +243,7 @@ entries:
     version: 0.0.60
   - apiVersion: v1
     appVersion: 0.0.59
-    created: "2020-05-01T14:52:32.811867151Z"
+    created: "2020-05-01T21:28:48.401681625Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 48c2d0c2d8a01679d5b23fe367d0f9476113c93f6c479ec61440b20e03aa9b18
@@ -243,7 +253,7 @@ entries:
     version: 0.0.59
   - apiVersion: v1
     appVersion: 0.0.58
-    created: "2020-05-01T14:52:32.807443256Z"
+    created: "2020-05-01T21:28:48.397271899Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 1e027dae48bb0db3a0c44fcc485dfadceeab1812bcb9dfb63c948fb527e7ca28
@@ -253,7 +263,7 @@ entries:
     version: 0.0.58
   - apiVersion: v1
     appVersion: 0.0.57
-    created: "2020-05-01T14:52:32.802453429Z"
+    created: "2020-05-01T21:28:48.391818524Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 48b6589bd7595ee57b2f672177086646f6ab03a74bcc32fde75374370588730c
@@ -263,7 +273,7 @@ entries:
     version: 0.0.57
   - apiVersion: v1
     appVersion: 0.0.56
-    created: "2020-05-01T14:52:32.797453069Z"
+    created: "2020-05-01T21:28:48.386046877Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 7e37814decc4a18aa04e0d6539a419077b027019f7fef61198590e2ac5ed51e3
@@ -273,7 +283,7 @@ entries:
     version: 0.0.56
   - apiVersion: v1
     appVersion: 0.0.55
-    created: "2020-05-01T14:52:32.793247302Z"
+    created: "2020-05-01T21:28:48.381744915Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: ff63161e11f08293898015c18e3d84462c5cdf48688323a545818d573f3ea093
@@ -283,7 +293,7 @@ entries:
     version: 0.0.55
   - apiVersion: v1
     appVersion: 0.0.54
-    created: "2020-05-01T14:52:32.787941796Z"
+    created: "2020-05-01T21:28:48.3762574Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 806a2fea505641dea6d59686e74b4a0b3a4225e0fb4f5724c080d8ed973c68aa
@@ -293,7 +303,7 @@ entries:
     version: 0.0.54
   - apiVersion: v1
     appVersion: 0.0.53
-    created: "2020-05-01T14:52:32.782641474Z"
+    created: "2020-05-01T21:28:48.370728357Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 32f9f14e8f20f5c0ca3c173cd06c6846411ecc07d00d46d16c631d030c29034a
@@ -303,7 +313,7 @@ entries:
     version: 0.0.53
   - apiVersion: v1
     appVersion: 0.0.51
-    created: "2020-05-01T14:52:32.778502911Z"
+    created: "2020-05-01T21:28:48.364878064Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 71be5afe2a0c9990180b609f21e600c71a113e80adc6cffbee57e1b2b6c34722
@@ -313,7 +323,7 @@ entries:
     version: 0.0.51
   - apiVersion: v1
     appVersion: 0.0.49
-    created: "2020-05-01T14:52:32.773311508Z"
+    created: "2020-05-01T21:28:48.360464161Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: a1cb92a8674cb00adf1484c94a3ff7f9c658cbc9e59011a7db8ce4ba557309ce
@@ -323,7 +333,7 @@ entries:
     version: 0.0.49
   - apiVersion: v1
     appVersion: 0.0.48
-    created: "2020-05-01T14:52:32.768341656Z"
+    created: "2020-05-01T21:28:48.353553048Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 265ac6bdb7ec7a5a5cd4561201c91415691a9274ad75d3675ae0420133434837
@@ -333,7 +343,7 @@ entries:
     version: 0.0.48
   - apiVersion: v1
     appVersion: 0.0.47
-    created: "2020-05-01T14:52:32.764160799Z"
+    created: "2020-05-01T21:28:48.339130199Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 0b7a7a324bac8210ab91c9ab99e1d65746757af4f89683a9fb054eab1a629ff8
@@ -343,7 +353,7 @@ entries:
     version: 0.0.47
   - apiVersion: v1
     appVersion: 0.0.46
-    created: "2020-05-01T14:52:32.759210085Z"
+    created: "2020-05-01T21:28:48.332874997Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: fb9150f9d419649e31c3ccff83b51e662647b25b6222c74f64169271e60bf503
@@ -353,7 +363,7 @@ entries:
     version: 0.0.46
   - apiVersion: v1
     appVersion: 0.0.45
-    created: "2020-05-01T14:52:32.755076952Z"
+    created: "2020-05-01T21:28:48.326884515Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 7fbb0734ba6a659dbb568842d60824176aa72246ed65169999a6591150261915
@@ -363,7 +373,7 @@ entries:
     version: 0.0.45
   - apiVersion: v1
     appVersion: 0.0.44
-    created: "2020-05-01T14:52:32.749947142Z"
+    created: "2020-05-01T21:28:48.322450801Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 19534a776b2222b2ea2e51f5aafc5126b5619a1d6b9788850a587159f10419dd
@@ -373,7 +383,7 @@ entries:
     version: 0.0.44
   - apiVersion: v1
     appVersion: 0.0.43
-    created: "2020-05-01T14:52:32.744832566Z"
+    created: "2020-05-01T21:28:48.316870822Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: d05aeefcfb02055427c41dddccf1329c64bbb8a76f6f6e103b562d3fab4b9fe4
@@ -383,7 +393,7 @@ entries:
     version: 0.0.43
   - apiVersion: v1
     appVersion: 0.0.42
-    created: "2020-05-01T14:52:32.740626051Z"
+    created: "2020-05-01T21:28:48.312436011Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: bf4f41d3bddc34a38d5ac84cf711fe717ee17189b90a63da46da03a9447b206c
@@ -393,7 +403,7 @@ entries:
     version: 0.0.42
   - apiVersion: v1
     appVersion: 0.0.41
-    created: "2020-05-01T14:52:32.735316255Z"
+    created: "2020-05-01T21:28:48.297861248Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 47e7b75d40b232ba77d3c3c89e78a4b17215016e2af6ae44ba6dc99f86854660
@@ -403,7 +413,7 @@ entries:
     version: 0.0.41
   - apiVersion: v1
     appVersion: 0.0.40
-    created: "2020-05-01T14:52:32.730070378Z"
+    created: "2020-05-01T21:28:48.285016808Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: f4f057486a9c4daad9d579bb00099d9ba23fe0bb4fd6e729daa3ecc4bc7ddb06
@@ -413,7 +423,7 @@ entries:
     version: 0.0.40
   - apiVersion: v1
     appVersion: 0.0.39
-    created: "2020-05-01T14:52:32.725927255Z"
+    created: "2020-05-01T21:28:48.278244132Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 5c3f6a0d7fa49eeca2b8510b7f9db7ce3aa02bdf46ee47117b9ac74305a55618
@@ -423,7 +433,7 @@ entries:
     version: 0.0.39
   - apiVersion: v1
     appVersion: 0.0.36
-    created: "2020-05-01T14:52:32.719966764Z"
+    created: "2020-05-01T21:28:48.272058701Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 09883349c5cd1c2504e2fbb23394b7f1ba234e66a3ade25338eb39227d226053
@@ -433,7 +443,7 @@ entries:
     version: 0.0.36
   - apiVersion: v1
     appVersion: 0.0.35
-    created: "2020-05-01T14:52:32.711740788Z"
+    created: "2020-05-01T21:28:48.267588864Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 4337917bb36d7c800888a87a493606a8e1a229542db447f7464b63dc069b9eed
@@ -443,7 +453,7 @@ entries:
     version: 0.0.35
   - apiVersion: v1
     appVersion: 0.0.34
-    created: "2020-05-01T14:52:32.707966085Z"
+    created: "2020-05-01T21:28:48.261036707Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 13fc46bc0849e82162837938957350d5f7f21469bb0146591dceecee7b66ef8e
@@ -453,7 +463,7 @@ entries:
     version: 0.0.34
   - apiVersion: v1
     appVersion: 0.0.33
-    created: "2020-05-01T14:52:32.701993566Z"
+    created: "2020-05-01T21:28:48.23792313Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 39338ca620b5dd78ee9b4892c4d935cf7d84ec00ba9a3c1bfd3aa540f6a7ee68
@@ -463,7 +473,7 @@ entries:
     version: 0.0.33
   - apiVersion: v1
     appVersion: stage-test
-    created: "2020-05-01T14:52:32.948170583Z"
+    created: "2020-05-01T21:28:48.665706263Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 7535aaeb1f4847616eb02ccb87ed848c268eeb068d24852c1fcb8eab3ff08ca5
@@ -473,7 +483,7 @@ entries:
     version: stage-test
   - apiVersion: v1
     appVersion: stage-29
-    created: "2020-05-01T14:52:32.940393189Z"
+    created: "2020-05-01T21:28:48.652187856Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: fe1501f8876453b3a8f914416e0b23d24d8915f6307dbfbbd2216ade0a979145
@@ -483,7 +493,7 @@ entries:
     version: stage-29
   - apiVersion: v1
     appVersion: stage-28
-    created: "2020-05-01T14:52:32.936485773Z"
+    created: "2020-05-01T21:28:48.646487785Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: d954b71c1f856f990865b86d8dc28eae777c8eb7f8e1efbe8fb6db889f235dff
@@ -493,7 +503,7 @@ entries:
     version: stage-28
   - apiVersion: v1
     appVersion: stage-27
-    created: "2020-05-01T14:52:32.932619266Z"
+    created: "2020-05-01T21:28:48.633758294Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 4d5b3808eea1958e347fa113a105d353034044c57ded8dfb35cc54330a78132e
@@ -503,7 +513,7 @@ entries:
     version: stage-27
   - apiVersion: v1
     appVersion: "null"
-    created: "2020-05-01T14:52:32.928393371Z"
+    created: "2020-05-01T21:28:48.61768295Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: a3b1ca3d11fa432185f90232025eea0a59cd295ae617e572cc5867a8a8c627ff
@@ -513,7 +523,7 @@ entries:
     version: "null"
   - apiVersion: v1
     appVersion: stage-test-26
-    created: "2020-05-01T14:52:32.94471198Z"
+    created: "2020-05-01T21:28:48.660138466Z"
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
     digest: 25593ff6e195798270ed578aeb722da76da30986c3cacba5d3ddc905fa251c6e
@@ -521,4 +531,4 @@ entries:
     urls:
     - cost-analyzer-stage-test-26.tgz
     version: stage-test-26
-generated: "2020-05-01T14:52:32.693423028Z"
+generated: "2020-05-01T21:28:48.155109536Z"
