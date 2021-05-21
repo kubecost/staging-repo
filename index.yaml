@@ -2,8 +2,31 @@ apiVersion: v1
 entries:
   cost-analyzer:
   - apiVersion: v1
+    appVersion: 0.0.900000
+    created: "2021-05-21T22:06:03.225407267Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ed542f2498277f5f0a72624c21c8650169627fc1ab23cec99397ee3b939892a6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.900000.tgz
+    version: 0.0.900000
+  - apiVersion: v1
     appVersion: 0.0.800007
-    created: "2021-05-12T18:40:44.789596022Z"
+    created: "2021-05-21T22:06:03.069136663Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -26,7 +49,7 @@ entries:
     version: 0.0.800007
   - apiVersion: v1
     appVersion: 0.0.800001
-    created: "2021-05-12T18:40:44.774026224Z"
+    created: "2021-05-21T22:06:03.05545107Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -49,7 +72,7 @@ entries:
     version: 0.0.800001
   - apiVersion: v1
     appVersion: 0.0.700010
-    created: "2021-05-12T18:40:44.600200586Z"
+    created: "2021-05-21T22:06:02.89141299Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -72,7 +95,7 @@ entries:
     version: 0.0.700010
   - apiVersion: v1
     appVersion: 0.0.600000
-    created: "2021-05-12T18:40:44.422432116Z"
+    created: "2021-05-21T22:06:02.723441559Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -95,7 +118,7 @@ entries:
     version: 0.0.600000
   - apiVersion: v1
     appVersion: 0.0.500000
-    created: "2021-05-12T18:40:44.212327239Z"
+    created: "2021-05-21T22:06:02.517563649Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -118,7 +141,7 @@ entries:
     version: 0.0.500000
   - apiVersion: v1
     appVersion: 0.0.400000
-    created: "2021-05-12T18:40:44.034230499Z"
+    created: "2021-05-21T22:06:02.348055395Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -141,7 +164,7 @@ entries:
     version: 0.0.400000
   - apiVersion: v1
     appVersion: 0.0.300004
-    created: "2021-05-12T18:40:43.918841Z"
+    created: "2021-05-21T22:06:02.238223655Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -164,7 +187,7 @@ entries:
     version: 0.0.300004
   - apiVersion: v1
     appVersion: 0.0.300003
-    created: "2021-05-12T18:40:43.90355187Z"
+    created: "2021-05-21T22:06:02.223599125Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -187,7 +210,7 @@ entries:
     version: 0.0.300003
   - apiVersion: v1
     appVersion: 0.0.300001
-    created: "2021-05-12T18:40:43.887847693Z"
+    created: "2021-05-21T22:06:02.208981067Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -210,7 +233,7 @@ entries:
     version: 0.0.300001
   - apiVersion: v1
     appVersion: 0.0.300000
-    created: "2021-05-12T18:40:43.872625796Z"
+    created: "2021-05-21T22:06:02.194266408Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -233,7 +256,7 @@ entries:
     version: 0.0.300000
   - apiVersion: v1
     appVersion: 0.0.250007
-    created: "2021-05-12T18:40:43.830196919Z"
+    created: "2021-05-21T22:06:02.151527063Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -256,7 +279,7 @@ entries:
     version: 0.0.250007
   - apiVersion: v1
     appVersion: 0.0.250006
-    created: "2021-05-12T18:40:43.814578184Z"
+    created: "2021-05-21T22:06:02.136735171Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -279,7 +302,7 @@ entries:
     version: 0.0.250006
   - apiVersion: v1
     appVersion: 0.0.250001
-    created: "2021-05-12T18:40:43.798993691Z"
+    created: "2021-05-21T22:06:02.121991602Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -302,7 +325,7 @@ entries:
     version: 0.0.250001
   - apiVersion: v1
     appVersion: 0.0.250000
-    created: "2021-05-12T18:40:43.783248319Z"
+    created: "2021-05-21T22:06:02.106898858Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -325,7 +348,7 @@ entries:
     version: 0.0.250000
   - apiVersion: v1
     appVersion: 0.0.200001
-    created: "2021-05-12T18:40:43.708658317Z"
+    created: "2021-05-21T22:06:02.033870136Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -348,7 +371,7 @@ entries:
     version: 0.0.200001
   - apiVersion: v1
     appVersion: 0.0.140000
-    created: "2021-05-12T18:40:43.419035299Z"
+    created: "2021-05-21T22:06:01.753652881Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -371,7 +394,7 @@ entries:
     version: 0.0.140000
   - apiVersion: v1
     appVersion: 0.0.130000
-    created: "2021-05-12T18:40:43.268719569Z"
+    created: "2021-05-21T22:06:01.569235584Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -394,7 +417,7 @@ entries:
     version: 0.0.130000
   - apiVersion: v1
     appVersion: 0.0.120004
-    created: "2021-05-12T18:40:43.130545062Z"
+    created: "2021-05-21T22:06:01.437972132Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -417,7 +440,7 @@ entries:
     version: 0.0.120004
   - apiVersion: v1
     appVersion: 0.0.120003
-    created: "2021-05-12T18:40:43.115044269Z"
+    created: "2021-05-21T22:06:01.423360149Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -440,7 +463,7 @@ entries:
     version: 0.0.120003
   - apiVersion: v1
     appVersion: 0.0.110000
-    created: "2021-05-12T18:40:42.98963796Z"
+    created: "2021-05-21T22:06:01.306260547Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -463,7 +486,7 @@ entries:
     version: 0.0.110000
   - apiVersion: v1
     appVersion: 0.0.90001
-    created: "2021-05-12T18:40:44.958069739Z"
+    created: "2021-05-21T22:06:03.240610583Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -486,7 +509,7 @@ entries:
     version: 0.0.90001
   - apiVersion: v1
     appVersion: 0.0.90000
-    created: "2021-05-12T18:40:44.942461881Z"
+    created: "2021-05-21T22:06:03.209743846Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -509,7 +532,7 @@ entries:
     version: 0.0.90000
   - apiVersion: v1
     appVersion: 0.0.70000
-    created: "2021-05-12T18:40:44.584905896Z"
+    created: "2021-05-21T22:06:02.87704331Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -532,7 +555,7 @@ entries:
     version: 0.0.70000
   - apiVersion: v1
     appVersion: 0.0.60000
-    created: "2021-05-12T18:40:44.406818768Z"
+    created: "2021-05-21T22:06:02.707975094Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -555,7 +578,7 @@ entries:
     version: 0.0.60000
   - apiVersion: v1
     appVersion: 0.0.52004
-    created: "2021-05-12T18:40:44.270249301Z"
+    created: "2021-05-21T22:06:02.573373615Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -578,7 +601,7 @@ entries:
     version: 0.0.52004
   - apiVersion: v1
     appVersion: 0.0.52001
-    created: "2021-05-12T18:40:44.25473115Z"
+    created: "2021-05-21T22:06:02.558818854Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -601,7 +624,7 @@ entries:
     version: 0.0.52001
   - apiVersion: v1
     appVersion: 0.0.51000
-    created: "2021-05-12T18:40:44.239601009Z"
+    created: "2021-05-21T22:06:02.544609837Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -624,7 +647,7 @@ entries:
     version: 0.0.51000
   - apiVersion: v1
     appVersion: 0.0.50000
-    created: "2021-05-12T18:40:44.196904527Z"
+    created: "2021-05-21T22:06:02.502726052Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -647,7 +670,7 @@ entries:
     version: 0.0.50000
   - apiVersion: v1
     appVersion: 0.0.40002
-    created: "2021-05-12T18:40:44.049635935Z"
+    created: "2021-05-21T22:06:02.362238912Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -670,7 +693,7 @@ entries:
     version: 0.0.40002
   - apiVersion: v1
     appVersion: 0.0.30001
-    created: "2021-05-12T18:40:43.934052525Z"
+    created: "2021-05-21T22:06:02.25211866Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -693,7 +716,7 @@ entries:
     version: 0.0.30001
   - apiVersion: v1
     appVersion: 0.0.22000
-    created: "2021-05-12T18:40:43.767186225Z"
+    created: "2021-05-21T22:06:02.091330574Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -716,7 +739,7 @@ entries:
     version: 0.0.22000
   - apiVersion: v1
     appVersion: 0.0.20003
-    created: "2021-05-12T18:40:43.723038902Z"
+    created: "2021-05-21T22:06:02.048746881Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -739,7 +762,7 @@ entries:
     version: 0.0.20003
   - apiVersion: v1
     appVersion: 0.0.18000
-    created: "2021-05-12T18:40:43.583225062Z"
+    created: "2021-05-21T22:06:01.912648957Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -762,7 +785,7 @@ entries:
     version: 0.0.18000
   - apiVersion: v1
     appVersion: 0.0.15000
-    created: "2021-05-12T18:40:43.46002774Z"
+    created: "2021-05-21T22:06:01.794113286Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -785,7 +808,7 @@ entries:
     version: 0.0.15000
   - apiVersion: v1
     appVersion: 0.0.13001
-    created: "2021-05-12T18:40:43.283932101Z"
+    created: "2021-05-21T22:06:01.58360876Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -808,7 +831,7 @@ entries:
     version: 0.0.13001
   - apiVersion: v1
     appVersion: 0.0.12000
-    created: "2021-05-12T18:40:43.099714028Z"
+    created: "2021-05-21T22:06:01.408878129Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -831,7 +854,7 @@ entries:
     version: 0.0.12000
   - apiVersion: v1
     appVersion: 0.0.10006
-    created: "2021-05-12T18:40:42.839630357Z"
+    created: "2021-05-21T22:06:01.162428253Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -854,7 +877,7 @@ entries:
     version: 0.0.10006
   - apiVersion: v1
     appVersion: 0.0.10001
-    created: "2021-05-12T18:40:42.824583228Z"
+    created: "2021-05-21T22:06:01.148352255Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -877,7 +900,7 @@ entries:
     version: 0.0.10001
   - apiVersion: v1
     appVersion: 0.0.10000
-    created: "2021-05-12T18:40:42.809303904Z"
+    created: "2021-05-21T22:06:01.134313947Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -900,7 +923,7 @@ entries:
     version: 0.0.10000
   - apiVersion: v1
     appVersion: 0.0.9000
-    created: "2021-05-12T18:40:44.926814353Z"
+    created: "2021-05-21T22:06:03.195245667Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -923,7 +946,7 @@ entries:
     version: 0.0.9000
   - apiVersion: v1
     appVersion: 0.0.8001
-    created: "2021-05-12T18:40:44.803730373Z"
+    created: "2021-05-21T22:06:03.08225143Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -946,7 +969,7 @@ entries:
     version: 0.0.8001
   - apiVersion: v1
     appVersion: 0.0.7005
-    created: "2021-05-12T18:40:44.627414412Z"
+    created: "2021-05-21T22:06:02.918384279Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -969,7 +992,7 @@ entries:
     version: 0.0.7005
   - apiVersion: v1
     appVersion: 0.0.7003
-    created: "2021-05-12T18:40:44.613908807Z"
+    created: "2021-05-21T22:06:02.903442472Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -992,7 +1015,7 @@ entries:
     version: 0.0.7003
   - apiVersion: v1
     appVersion: 0.0.6003
-    created: "2021-05-12T18:40:44.437068299Z"
+    created: "2021-05-21T22:06:02.73704997Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1015,7 +1038,7 @@ entries:
     version: 0.0.6003
   - apiVersion: v1
     appVersion: 0.0.6000
-    created: "2021-05-12T18:40:44.391553215Z"
+    created: "2021-05-21T22:06:02.692990549Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1038,7 +1061,7 @@ entries:
     version: 0.0.6000
   - apiVersion: v1
     appVersion: 0.0.4005
-    created: "2021-05-12T18:40:44.063851681Z"
+    created: "2021-05-21T22:06:02.374433712Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1061,7 +1084,7 @@ entries:
     version: 0.0.4005
   - apiVersion: v1
     appVersion: 0.0.3001
-    created: "2021-05-12T18:40:43.948208522Z"
+    created: "2021-05-21T22:06:02.265398909Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1084,7 +1107,7 @@ entries:
     version: 0.0.3001
   - apiVersion: v1
     appVersion: 0.0.2900
-    created: "2021-05-12T18:40:43.856858333Z"
+    created: "2021-05-21T22:06:02.179134917Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1107,7 +1130,7 @@ entries:
     version: 0.0.2900
   - apiVersion: v1
     appVersion: 0.0.2602
-    created: "2021-05-12T18:40:43.843746998Z"
+    created: "2021-05-21T22:06:02.165189964Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1130,7 +1153,7 @@ entries:
     version: 0.0.2602
   - apiVersion: v1
     appVersion: 0.0.2100
-    created: "2021-05-12T18:40:43.751659277Z"
+    created: "2021-05-21T22:06:02.076484867Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1153,7 +1176,7 @@ entries:
     version: 0.0.2100
   - apiVersion: v1
     appVersion: 0.0.2005
-    created: "2021-05-12T18:40:43.737283357Z"
+    created: "2021-05-21T22:06:02.062545432Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1176,7 +1199,7 @@ entries:
     version: 0.0.2005
   - apiVersion: v1
     appVersion: 0.0.1909
-    created: "2021-05-12T18:40:43.679607216Z"
+    created: "2021-05-21T22:06:02.005129873Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1199,7 +1222,7 @@ entries:
     version: 0.0.1909
   - apiVersion: v1
     appVersion: 0.0.1908
-    created: "2021-05-12T18:40:43.665739542Z"
+    created: "2021-05-21T22:06:01.991475871Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1222,7 +1245,7 @@ entries:
     version: 0.0.1908
   - apiVersion: v1
     appVersion: 0.0.1902
-    created: "2021-05-12T18:40:43.651847368Z"
+    created: "2021-05-21T22:06:01.9779242Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1245,7 +1268,7 @@ entries:
     version: 0.0.1902
   - apiVersion: v1
     appVersion: 0.0.1901
-    created: "2021-05-12T18:40:43.638134817Z"
+    created: "2021-05-21T22:06:01.964874724Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1268,7 +1291,7 @@ entries:
     version: 0.0.1901
   - apiVersion: v1
     appVersion: 0.0.1900
-    created: "2021-05-12T18:40:43.624928046Z"
+    created: "2021-05-21T22:06:01.952814935Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1291,7 +1314,7 @@ entries:
     version: 0.0.1900
   - apiVersion: v1
     appVersion: 0.0.1805
-    created: "2021-05-12T18:40:43.597641967Z"
+    created: "2021-05-21T22:06:01.926377532Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1314,7 +1337,7 @@ entries:
     version: 0.0.1805
   - apiVersion: v1
     appVersion: 0.0.1800
-    created: "2021-05-12T18:40:43.568573048Z"
+    created: "2021-05-21T22:06:01.898317982Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1337,7 +1360,7 @@ entries:
     version: 0.0.1800
   - apiVersion: v1
     appVersion: 0.0.1701
-    created: "2021-05-12T18:40:43.515875767Z"
+    created: "2021-05-21T22:06:01.845900266Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1360,7 +1383,7 @@ entries:
     version: 0.0.1701
   - apiVersion: v1
     appVersion: 0.0.1700
-    created: "2021-05-12T18:40:43.501767555Z"
+    created: "2021-05-21T22:06:01.833706144Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1383,7 +1406,7 @@ entries:
     version: 0.0.1700
   - apiVersion: v1
     appVersion: 0.0.1600
-    created: "2021-05-12T18:40:43.473910466Z"
+    created: "2021-05-21T22:06:01.807609793Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1406,7 +1429,7 @@ entries:
     version: 0.0.1600
   - apiVersion: v1
     appVersion: 0.0.1500
-    created: "2021-05-12T18:40:43.445954085Z"
+    created: "2021-05-21T22:06:01.780122794Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1429,7 +1452,7 @@ entries:
     version: 0.0.1500
   - apiVersion: v1
     appVersion: 0.0.1400
-    created: "2021-05-12T18:40:43.403718275Z"
+    created: "2021-05-21T22:06:01.738931016Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1452,7 +1475,7 @@ entries:
     version: 0.0.1400
   - apiVersion: v1
     appVersion: 0.0.1302
-    created: "2021-05-12T18:40:43.296656937Z"
+    created: "2021-05-21T22:06:01.5968986Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1475,7 +1498,7 @@ entries:
     version: 0.0.1302
   - apiVersion: v1
     appVersion: 0.0.1300
-    created: "2021-05-12T18:40:43.252697942Z"
+    created: "2021-05-21T22:06:01.554923916Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1498,7 +1521,7 @@ entries:
     version: 0.0.1300
   - apiVersion: v1
     appVersion: 0.0.1201
-    created: "2021-05-12T18:40:43.143424841Z"
+    created: "2021-05-21T22:06:01.450882324Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1521,7 +1544,7 @@ entries:
     version: 0.0.1201
   - apiVersion: v1
     appVersion: 0.0.1200
-    created: "2021-05-12T18:40:43.083892503Z"
+    created: "2021-05-21T22:06:01.395486386Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1544,7 +1567,7 @@ entries:
     version: 0.0.1200
   - apiVersion: v1
     appVersion: 0.0.1013
-    created: "2021-05-12T18:40:42.894854276Z"
+    created: "2021-05-21T22:06:01.214707581Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1567,7 +1590,7 @@ entries:
     version: 0.0.1013
   - apiVersion: v1
     appVersion: 0.0.1012
-    created: "2021-05-12T18:40:42.88115809Z"
+    created: "2021-05-21T22:06:01.201890425Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1590,7 +1613,7 @@ entries:
     version: 0.0.1012
   - apiVersion: v1
     appVersion: 0.0.1010
-    created: "2021-05-12T18:40:42.867349275Z"
+    created: "2021-05-21T22:06:01.188624098Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1613,7 +1636,7 @@ entries:
     version: 0.0.1010
   - apiVersion: v1
     appVersion: 0.0.200
-    created: "2021-05-12T18:40:43.693361941Z"
+    created: "2021-05-21T22:06:02.0187166Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1636,7 +1659,7 @@ entries:
     version: 0.0.200
   - apiVersion: v1
     appVersion: 0.0.181
-    created: "2021-05-12T18:40:43.61164522Z"
+    created: "2021-05-21T22:06:01.939585351Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1659,7 +1682,7 @@ entries:
     version: 0.0.181
   - apiVersion: v1
     appVersion: 0.0.180
-    created: "2021-05-12T18:40:43.554751889Z"
+    created: "2021-05-21T22:06:01.884793806Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1682,7 +1705,7 @@ entries:
     version: 0.0.180
   - apiVersion: v1
     appVersion: 0.0.172
-    created: "2021-05-12T18:40:43.541446885Z"
+    created: "2021-05-21T22:06:01.871241206Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1705,7 +1728,7 @@ entries:
     version: 0.0.172
   - apiVersion: v1
     appVersion: 0.0.171
-    created: "2021-05-12T18:40:43.527983273Z"
+    created: "2021-05-21T22:06:01.858324621Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1728,7 +1751,7 @@ entries:
     version: 0.0.171
   - apiVersion: v1
     appVersion: 0.0.170
-    created: "2021-05-12T18:40:43.487670524Z"
+    created: "2021-05-21T22:06:01.82125765Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1751,7 +1774,7 @@ entries:
     version: 0.0.170
   - apiVersion: v1
     appVersion: 0.0.142
-    created: "2021-05-12T18:40:43.432506833Z"
+    created: "2021-05-21T22:06:01.766965097Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1774,7 +1797,7 @@ entries:
     version: 0.0.142
   - apiVersion: v1
     appVersion: 0.0.140
-    created: "2021-05-12T18:40:43.391044159Z"
+    created: "2021-05-21T22:06:01.725467325Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1797,7 +1820,7 @@ entries:
     version: 0.0.140
   - apiVersion: v1
     appVersion: 0.0.138
-    created: "2021-05-12T18:40:43.377862959Z"
+    created: "2021-05-21T22:06:01.712687423Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1820,7 +1843,7 @@ entries:
     version: 0.0.138
   - apiVersion: v1
     appVersion: 0.0.137
-    created: "2021-05-12T18:40:43.363859658Z"
+    created: "2021-05-21T22:06:01.699338969Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1843,7 +1866,7 @@ entries:
     version: 0.0.137
   - apiVersion: v1
     appVersion: 0.0.136
-    created: "2021-05-12T18:40:43.350097214Z"
+    created: "2021-05-21T22:06:01.68753064Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1866,7 +1889,7 @@ entries:
     version: 0.0.136
   - apiVersion: v1
     appVersion: 0.0.135
-    created: "2021-05-12T18:40:43.336643622Z"
+    created: "2021-05-21T22:06:01.673952529Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1889,7 +1912,7 @@ entries:
     version: 0.0.135
   - apiVersion: v1
     appVersion: 0.0.132
-    created: "2021-05-12T18:40:43.323187459Z"
+    created: "2021-05-21T22:06:01.623786652Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1912,7 +1935,7 @@ entries:
     version: 0.0.132
   - apiVersion: v1
     appVersion: 0.0.131
-    created: "2021-05-12T18:40:43.309495772Z"
+    created: "2021-05-21T22:06:01.610208356Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1935,7 +1958,7 @@ entries:
     version: 0.0.131
   - apiVersion: v1
     appVersion: 0.0.130
-    created: "2021-05-12T18:40:43.239054353Z"
+    created: "2021-05-21T22:06:01.541996873Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1958,7 +1981,7 @@ entries:
     version: 0.0.130
   - apiVersion: v1
     appVersion: 0.0.129
-    created: "2021-05-12T18:40:43.225063281Z"
+    created: "2021-05-21T22:06:01.52988509Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -1981,7 +2004,7 @@ entries:
     version: 0.0.129
   - apiVersion: v1
     appVersion: 0.0.127
-    created: "2021-05-12T18:40:43.21101347Z"
+    created: "2021-05-21T22:06:01.51669066Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2004,7 +2027,7 @@ entries:
     version: 0.0.127
   - apiVersion: v1
     appVersion: 0.0.126
-    created: "2021-05-12T18:40:43.19679398Z"
+    created: "2021-05-21T22:06:01.503404196Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2027,7 +2050,7 @@ entries:
     version: 0.0.126
   - apiVersion: v1
     appVersion: 0.0.124
-    created: "2021-05-12T18:40:43.183257013Z"
+    created: "2021-05-21T22:06:01.490251055Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2050,7 +2073,7 @@ entries:
     version: 0.0.124
   - apiVersion: v1
     appVersion: 0.0.123
-    created: "2021-05-12T18:40:43.169714408Z"
+    created: "2021-05-21T22:06:01.476788709Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2073,7 +2096,7 @@ entries:
     version: 0.0.123
   - apiVersion: v1
     appVersion: 0.0.121
-    created: "2021-05-12T18:40:43.156307717Z"
+    created: "2021-05-21T22:06:01.463859696Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2096,7 +2119,7 @@ entries:
     version: 0.0.121
   - apiVersion: v1
     appVersion: 0.0.120
-    created: "2021-05-12T18:40:43.070546171Z"
+    created: "2021-05-21T22:06:01.382997565Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2119,7 +2142,7 @@ entries:
     version: 0.0.120
   - apiVersion: v1
     appVersion: 0.0.119
-    created: "2021-05-12T18:40:43.058762327Z"
+    created: "2021-05-21T22:06:01.370337506Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2142,7 +2165,7 @@ entries:
     version: 0.0.119
   - apiVersion: v1
     appVersion: 0.0.118
-    created: "2021-05-12T18:40:43.043601704Z"
+    created: "2021-05-21T22:06:01.357361777Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2165,7 +2188,7 @@ entries:
     version: 0.0.118
   - apiVersion: v1
     appVersion: 0.0.117
-    created: "2021-05-12T18:40:43.031591193Z"
+    created: "2021-05-21T22:06:01.345519988Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2188,7 +2211,7 @@ entries:
     version: 0.0.117
   - apiVersion: v1
     appVersion: 0.0.116
-    created: "2021-05-12T18:40:43.017549136Z"
+    created: "2021-05-21T22:06:01.33258072Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2211,7 +2234,7 @@ entries:
     version: 0.0.116
   - apiVersion: v1
     appVersion: 0.0.115
-    created: "2021-05-12T18:40:43.003404303Z"
+    created: "2021-05-21T22:06:01.319017997Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2234,7 +2257,7 @@ entries:
     version: 0.0.115
   - apiVersion: v1
     appVersion: 0.0.109
-    created: "2021-05-12T18:40:42.974042769Z"
+    created: "2021-05-21T22:06:01.291576274Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2257,7 +2280,7 @@ entries:
     version: 0.0.109
   - apiVersion: v1
     appVersion: 0.0.108
-    created: "2021-05-12T18:40:42.960107214Z"
+    created: "2021-05-21T22:06:01.278318318Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2280,7 +2303,7 @@ entries:
     version: 0.0.108
   - apiVersion: v1
     appVersion: 0.0.107
-    created: "2021-05-12T18:40:42.946551978Z"
+    created: "2021-05-21T22:06:01.265760088Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2303,7 +2326,7 @@ entries:
     version: 0.0.107
   - apiVersion: v1
     appVersion: 0.0.106
-    created: "2021-05-12T18:40:42.933276782Z"
+    created: "2021-05-21T22:06:01.252644043Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2326,7 +2349,7 @@ entries:
     version: 0.0.106
   - apiVersion: v1
     appVersion: 0.0.104
-    created: "2021-05-12T18:40:42.920140076Z"
+    created: "2021-05-21T22:06:01.239641927Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2349,7 +2372,7 @@ entries:
     version: 0.0.104
   - apiVersion: v1
     appVersion: 0.0.102
-    created: "2021-05-12T18:40:42.906781319Z"
+    created: "2021-05-21T22:06:01.226488435Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2372,7 +2395,7 @@ entries:
     version: 0.0.102
   - apiVersion: v1
     appVersion: 0.0.101
-    created: "2021-05-12T18:40:42.853503415Z"
+    created: "2021-05-21T22:06:01.175680854Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2395,7 +2418,7 @@ entries:
     version: 0.0.101
   - apiVersion: v1
     appVersion: 0.0.100
-    created: "2021-05-12T18:40:42.794533884Z"
+    created: "2021-05-21T22:06:01.119515931Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2418,7 +2441,7 @@ entries:
     version: 0.0.100
   - apiVersion: v1
     appVersion: 0.0.99
-    created: "2021-05-12T18:40:45.051501395Z"
+    created: "2021-05-21T22:06:03.384304791Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2441,7 +2464,7 @@ entries:
     version: 0.0.99
   - apiVersion: v1
     appVersion: 0.0.98
-    created: "2021-05-12T18:40:45.037748248Z"
+    created: "2021-05-21T22:06:03.370245448Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2464,7 +2487,7 @@ entries:
     version: 0.0.98
   - apiVersion: v1
     appVersion: 0.0.95
-    created: "2021-05-12T18:40:45.025259164Z"
+    created: "2021-05-21T22:06:03.304216768Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2487,7 +2510,7 @@ entries:
     version: 0.0.95
   - apiVersion: v1
     appVersion: 0.0.94
-    created: "2021-05-12T18:40:45.010866311Z"
+    created: "2021-05-21T22:06:03.291018332Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2510,7 +2533,7 @@ entries:
     version: 0.0.94
   - apiVersion: v1
     appVersion: 0.0.93
-    created: "2021-05-12T18:40:44.996476914Z"
+    created: "2021-05-21T22:06:03.277697244Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2533,7 +2556,7 @@ entries:
     version: 0.0.93
   - apiVersion: v1
     appVersion: 0.0.92
-    created: "2021-05-12T18:40:44.982977937Z"
+    created: "2021-05-21T22:06:03.266359347Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2556,7 +2579,7 @@ entries:
     version: 0.0.92
   - apiVersion: v1
     appVersion: 0.0.91
-    created: "2021-05-12T18:40:44.969903197Z"
+    created: "2021-05-21T22:06:03.253393756Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2579,7 +2602,7 @@ entries:
     version: 0.0.91
   - apiVersion: v1
     appVersion: 0.0.89
-    created: "2021-05-12T18:40:44.911650298Z"
+    created: "2021-05-21T22:06:03.181314947Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2602,7 +2625,7 @@ entries:
     version: 0.0.89
   - apiVersion: v1
     appVersion: 0.0.88
-    created: "2021-05-12T18:40:44.897684966Z"
+    created: "2021-05-21T22:06:03.169055192Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2625,7 +2648,7 @@ entries:
     version: 0.0.88
   - apiVersion: v1
     appVersion: 0.0.87
-    created: "2021-05-12T18:40:44.883625613Z"
+    created: "2021-05-21T22:06:03.156936955Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2648,7 +2671,7 @@ entries:
     version: 0.0.87
   - apiVersion: v1
     appVersion: 0.0.85
-    created: "2021-05-12T18:40:44.87016273Z"
+    created: "2021-05-21T22:06:03.145949808Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2671,7 +2694,7 @@ entries:
     version: 0.0.85
   - apiVersion: v1
     appVersion: 0.0.84
-    created: "2021-05-12T18:40:44.856659876Z"
+    created: "2021-05-21T22:06:03.131832006Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2694,7 +2717,7 @@ entries:
     version: 0.0.84
   - apiVersion: v1
     appVersion: 0.0.83
-    created: "2021-05-12T18:40:44.842990327Z"
+    created: "2021-05-21T22:06:03.118965155Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2717,7 +2740,7 @@ entries:
     version: 0.0.83
   - apiVersion: v1
     appVersion: 0.0.82
-    created: "2021-05-12T18:40:44.830705684Z"
+    created: "2021-05-21T22:06:03.106961435Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2740,7 +2763,7 @@ entries:
     version: 0.0.82
   - apiVersion: v1
     appVersion: 0.0.81
-    created: "2021-05-12T18:40:44.817240263Z"
+    created: "2021-05-21T22:06:03.09510384Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2763,7 +2786,7 @@ entries:
     version: 0.0.81
   - apiVersion: v1
     appVersion: 0.0.80
-    created: "2021-05-12T18:40:44.758548746Z"
+    created: "2021-05-21T22:06:03.041283147Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2786,7 +2809,7 @@ entries:
     version: 0.0.80
   - apiVersion: v1
     appVersion: 0.0.79
-    created: "2021-05-12T18:40:44.744781227Z"
+    created: "2021-05-21T22:06:03.028950468Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2809,7 +2832,7 @@ entries:
     version: 0.0.79
   - apiVersion: v1
     appVersion: 0.0.78
-    created: "2021-05-12T18:40:44.732868579Z"
+    created: "2021-05-21T22:06:03.016815262Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2832,7 +2855,7 @@ entries:
     version: 0.0.78
   - apiVersion: v1
     appVersion: 0.0.77
-    created: "2021-05-12T18:40:44.71949663Z"
+    created: "2021-05-21T22:06:03.004564863Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2855,7 +2878,7 @@ entries:
     version: 0.0.77
   - apiVersion: v1
     appVersion: 0.0.76
-    created: "2021-05-12T18:40:44.70592214Z"
+    created: "2021-05-21T22:06:02.991913817Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2878,7 +2901,7 @@ entries:
     version: 0.0.76
   - apiVersion: v1
     appVersion: 0.0.75
-    created: "2021-05-12T18:40:44.692247059Z"
+    created: "2021-05-21T22:06:02.98014823Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2901,7 +2924,7 @@ entries:
     version: 0.0.75
   - apiVersion: v1
     appVersion: 0.0.74
-    created: "2021-05-12T18:40:44.679183491Z"
+    created: "2021-05-21T22:06:02.966732889Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2924,7 +2947,7 @@ entries:
     version: 0.0.74
   - apiVersion: v1
     appVersion: 0.0.73
-    created: "2021-05-12T18:40:44.666369143Z"
+    created: "2021-05-21T22:06:02.953949871Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2947,7 +2970,7 @@ entries:
     version: 0.0.73
   - apiVersion: v1
     appVersion: 0.0.72
-    created: "2021-05-12T18:40:44.654418171Z"
+    created: "2021-05-21T22:06:02.941520314Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2970,7 +2993,7 @@ entries:
     version: 0.0.72
   - apiVersion: v1
     appVersion: 0.0.71
-    created: "2021-05-12T18:40:44.640787031Z"
+    created: "2021-05-21T22:06:02.929187875Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -2993,7 +3016,7 @@ entries:
     version: 0.0.71
   - apiVersion: v1
     appVersion: 0.0.70
-    created: "2021-05-12T18:40:44.569767166Z"
+    created: "2021-05-21T22:06:02.861613076Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3016,7 +3039,7 @@ entries:
     version: 0.0.70
   - apiVersion: v1
     appVersion: 0.0.69
-    created: "2021-05-12T18:40:44.556744774Z"
+    created: "2021-05-21T22:06:02.850714655Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3039,7 +3062,7 @@ entries:
     version: 0.0.69
   - apiVersion: v1
     appVersion: 0.0.68
-    created: "2021-05-12T18:40:44.54486767Z"
+    created: "2021-05-21T22:06:02.838137585Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3062,7 +3085,7 @@ entries:
     version: 0.0.68
   - apiVersion: v1
     appVersion: 0.0.67
-    created: "2021-05-12T18:40:44.531414981Z"
+    created: "2021-05-21T22:06:02.825440071Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3085,7 +3108,7 @@ entries:
     version: 0.0.67
   - apiVersion: v1
     appVersion: 0.0.66
-    created: "2021-05-12T18:40:44.51805373Z"
+    created: "2021-05-21T22:06:02.812567275Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3108,7 +3131,7 @@ entries:
     version: 0.0.66
   - apiVersion: v1
     appVersion: 0.0.65
-    created: "2021-05-12T18:40:44.5047492Z"
+    created: "2021-05-21T22:06:02.800182471Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3131,7 +3154,7 @@ entries:
     version: 0.0.65
   - apiVersion: v1
     appVersion: 0.0.64
-    created: "2021-05-12T18:40:44.491128739Z"
+    created: "2021-05-21T22:06:02.787292674Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3154,7 +3177,7 @@ entries:
     version: 0.0.64
   - apiVersion: v1
     appVersion: 0.0.63
-    created: "2021-05-12T18:40:44.47720803Z"
+    created: "2021-05-21T22:06:02.775392272Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3177,7 +3200,7 @@ entries:
     version: 0.0.63
   - apiVersion: v1
     appVersion: 0.0.62
-    created: "2021-05-12T18:40:44.464629985Z"
+    created: "2021-05-21T22:06:02.761894055Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3200,7 +3223,7 @@ entries:
     version: 0.0.62
   - apiVersion: v1
     appVersion: 0.0.61
-    created: "2021-05-12T18:40:44.451051084Z"
+    created: "2021-05-21T22:06:02.750268665Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3223,7 +3246,7 @@ entries:
     version: 0.0.61
   - apiVersion: v1
     appVersion: 0.0.60
-    created: "2021-05-12T18:40:44.377433968Z"
+    created: "2021-05-21T22:06:02.678945958Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3246,7 +3269,7 @@ entries:
     version: 0.0.60
   - apiVersion: v1
     appVersion: 0.0.59
-    created: "2021-05-12T18:40:44.364294309Z"
+    created: "2021-05-21T22:06:02.66553023Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3269,7 +3292,7 @@ entries:
     version: 0.0.59
   - apiVersion: v1
     appVersion: 0.0.58
-    created: "2021-05-12T18:40:44.350609865Z"
+    created: "2021-05-21T22:06:02.652244971Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3292,7 +3315,7 @@ entries:
     version: 0.0.58
   - apiVersion: v1
     appVersion: 0.0.57
-    created: "2021-05-12T18:40:44.337159421Z"
+    created: "2021-05-21T22:06:02.639127624Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3315,7 +3338,7 @@ entries:
     version: 0.0.57
   - apiVersion: v1
     appVersion: 0.0.56
-    created: "2021-05-12T18:40:44.323912191Z"
+    created: "2021-05-21T22:06:02.627369851Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3338,7 +3361,7 @@ entries:
     version: 0.0.56
   - apiVersion: v1
     appVersion: 0.0.55
-    created: "2021-05-12T18:40:44.310398999Z"
+    created: "2021-05-21T22:06:02.613830816Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3361,7 +3384,7 @@ entries:
     version: 0.0.55
   - apiVersion: v1
     appVersion: 0.0.54
-    created: "2021-05-12T18:40:44.297961531Z"
+    created: "2021-05-21T22:06:02.60040361Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3384,7 +3407,7 @@ entries:
     version: 0.0.54
   - apiVersion: v1
     appVersion: 0.0.53
-    created: "2021-05-12T18:40:44.284262573Z"
+    created: "2021-05-21T22:06:02.586749825Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3407,7 +3430,7 @@ entries:
     version: 0.0.53
   - apiVersion: v1
     appVersion: 0.0.51
-    created: "2021-05-12T18:40:44.224989189Z"
+    created: "2021-05-21T22:06:02.530260455Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3430,7 +3453,7 @@ entries:
     version: 0.0.51
   - apiVersion: v1
     appVersion: 0.0.49
-    created: "2021-05-12T18:40:44.181733287Z"
+    created: "2021-05-21T22:06:02.48816477Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3453,7 +3476,7 @@ entries:
     version: 0.0.49
   - apiVersion: v1
     appVersion: 0.0.48
-    created: "2021-05-12T18:40:44.16817067Z"
+    created: "2021-05-21T22:06:02.475040608Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3476,7 +3499,7 @@ entries:
     version: 0.0.48
   - apiVersion: v1
     appVersion: 0.0.47
-    created: "2021-05-12T18:40:44.155191427Z"
+    created: "2021-05-21T22:06:02.46236817Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3499,7 +3522,7 @@ entries:
     version: 0.0.47
   - apiVersion: v1
     appVersion: 0.0.46
-    created: "2021-05-12T18:40:44.142655195Z"
+    created: "2021-05-21T22:06:02.450879709Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3522,7 +3545,7 @@ entries:
     version: 0.0.46
   - apiVersion: v1
     appVersion: 0.0.45
-    created: "2021-05-12T18:40:44.128890611Z"
+    created: "2021-05-21T22:06:02.436534688Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3545,7 +3568,7 @@ entries:
     version: 0.0.45
   - apiVersion: v1
     appVersion: 0.0.44
-    created: "2021-05-12T18:40:44.115185205Z"
+    created: "2021-05-21T22:06:02.42506751Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3568,7 +3591,7 @@ entries:
     version: 0.0.44
   - apiVersion: v1
     appVersion: 0.0.43
-    created: "2021-05-12T18:40:44.102253331Z"
+    created: "2021-05-21T22:06:02.412341085Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3591,7 +3614,7 @@ entries:
     version: 0.0.43
   - apiVersion: v1
     appVersion: 0.0.42
-    created: "2021-05-12T18:40:44.089000987Z"
+    created: "2021-05-21T22:06:02.399458297Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3614,7 +3637,7 @@ entries:
     version: 0.0.42
   - apiVersion: v1
     appVersion: 0.0.41
-    created: "2021-05-12T18:40:44.075699053Z"
+    created: "2021-05-21T22:06:02.387164721Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3637,7 +3660,7 @@ entries:
     version: 0.0.41
   - apiVersion: v1
     appVersion: 0.0.40
-    created: "2021-05-12T18:40:44.018461696Z"
+    created: "2021-05-21T22:06:02.331149191Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3660,7 +3683,7 @@ entries:
     version: 0.0.40
   - apiVersion: v1
     appVersion: 0.0.39
-    created: "2021-05-12T18:40:44.004990042Z"
+    created: "2021-05-21T22:06:02.318452879Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3683,7 +3706,7 @@ entries:
     version: 0.0.39
   - apiVersion: v1
     appVersion: 0.0.36
-    created: "2021-05-12T18:40:43.99324016Z"
+    created: "2021-05-21T22:06:02.30897091Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3706,7 +3729,7 @@ entries:
     version: 0.0.36
   - apiVersion: v1
     appVersion: 0.0.35
-    created: "2021-05-12T18:40:43.98182706Z"
+    created: "2021-05-21T22:06:02.297387099Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3729,7 +3752,7 @@ entries:
     version: 0.0.35
   - apiVersion: v1
     appVersion: 0.0.34
-    created: "2021-05-12T18:40:43.971701328Z"
+    created: "2021-05-21T22:06:02.286145174Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3752,7 +3775,7 @@ entries:
     version: 0.0.34
   - apiVersion: v1
     appVersion: 0.0.33
-    created: "2021-05-12T18:40:43.959981888Z"
+    created: "2021-05-21T22:06:02.275691096Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3774,54 +3797,8 @@ entries:
     - cost-analyzer-0.0.33.tgz
     version: 0.0.33
   - apiVersion: v1
-    appVersion: stage-test-26
-    created: "2021-05-12T18:40:45.097298978Z"
-    dependencies:
-    - condition: global.prometheus.enabled
-      name: prometheus
-      repository: file://./charts/
-      version: 8.15.X
-    - condition: global.grafana.enabled
-      name: grafana
-      repository: file://./charts/
-      version: 1.X.X
-    - condition: global.thanos.enabled
-      name: thanos
-      repository: file://./charts/
-      version: 0.X.X
-    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
-      cloud costs.
-    digest: 25593ff6e195798270ed578aeb722da76da30986c3cacba5d3ddc905fa251c6e
-    name: cost-analyzer
-    urls:
-    - cost-analyzer-stage-test-26.tgz
-    version: stage-test-26
-  - apiVersion: v1
-    appVersion: stage-test
-    created: "2021-05-12T18:40:45.10852705Z"
-    dependencies:
-    - condition: global.prometheus.enabled
-      name: prometheus
-      repository: file://./charts/
-      version: 8.15.X
-    - condition: global.grafana.enabled
-      name: grafana
-      repository: file://./charts/
-      version: 1.X.X
-    - condition: global.thanos.enabled
-      name: thanos
-      repository: file://./charts/
-      version: 0.X.X
-    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
-      cloud costs.
-    digest: 7535aaeb1f4847616eb02ccb87ed848c268eeb068d24852c1fcb8eab3ff08ca5
-    name: cost-analyzer
-    urls:
-    - cost-analyzer-stage-test.tgz
-    version: stage-test
-  - apiVersion: v1
     appVersion: 0.0.
-    created: "2021-05-12T18:40:42.780656254Z"
+    created: "2021-05-21T22:06:01.106495442Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3843,8 +3820,8 @@ entries:
     - cost-analyzer-0.0..tgz
     version: 0.0.
   - apiVersion: v1
-    appVersion: stage-27
-    created: "2021-05-12T18:40:45.06297319Z"
+    appVersion: stage-test-26
+    created: "2021-05-21T22:06:03.427091114Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3860,14 +3837,14 @@ entries:
       version: 0.X.X
     description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
       cloud costs.
-    digest: 4d5b3808eea1958e347fa113a105d353034044c57ded8dfb35cc54330a78132e
+    digest: 25593ff6e195798270ed578aeb722da76da30986c3cacba5d3ddc905fa251c6e
     name: cost-analyzer
     urls:
-    - cost-analyzer-stage-27.tgz
-    version: stage-27
+    - cost-analyzer-stage-test-26.tgz
+    version: stage-test-26
   - apiVersion: v1
     appVersion: stage-29
-    created: "2021-05-12T18:40:45.087101984Z"
+    created: "2021-05-21T22:06:03.417209394Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3890,7 +3867,7 @@ entries:
     version: stage-29
   - apiVersion: v1
     appVersion: stage-28
-    created: "2021-05-12T18:40:45.074962719Z"
+    created: "2021-05-21T22:06:03.405560062Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -3911,4 +3888,50 @@ entries:
     urls:
     - cost-analyzer-stage-28.tgz
     version: stage-28
-generated: "2021-05-12T18:40:42.767091701Z"
+  - apiVersion: v1
+    appVersion: stage-27
+    created: "2021-05-21T22:06:03.394262738Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4d5b3808eea1958e347fa113a105d353034044c57ded8dfb35cc54330a78132e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-stage-27.tgz
+    version: stage-27
+  - apiVersion: v1
+    appVersion: stage-test
+    created: "2021-05-21T22:06:03.438267507Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 7535aaeb1f4847616eb02ccb87ed848c268eeb068d24852c1fcb8eab3ff08ca5
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-stage-test.tgz
+    version: stage-test
+generated: "2021-05-21T22:06:01.093181442Z"
