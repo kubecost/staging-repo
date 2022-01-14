@@ -2,8 +2,3430 @@ apiVersion: v1
 entries:
   cost-analyzer:
   - apiVersion: v1
+    appVersion: 0.0.20000001
+    created: "2022-01-14T22:44:33.113533595Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 04b04b30c9cde1bd564c468bb81ab602b26b324c9e06e1052b770d822a34da14
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.20000001.tgz
+    version: 0.0.20000001
+  - apiVersion: v1
+    appVersion: 0.0.20000000
+    created: "2022-01-14T22:44:33.098139163Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3bd07dcdb8926c9a016b712a6359725083e08947e2962d733900165f2ec3449d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.20000000.tgz
+    version: 0.0.20000000
+  - apiVersion: v1
+    appVersion: 0.0.11000004
+    created: "2022-01-14T22:44:32.370393417Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 03e3797f236366d29346c52811e276c233f956fe527512040291b18acb6e7cc0
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.11000004.tgz
+    version: 0.0.11000004
+  - apiVersion: v1
+    appVersion: 0.0.11000003
+    created: "2022-01-14T22:44:32.355083747Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 50031e4d952e96a91b5b05c1e1c9b4b147904cdaf532afc97b33edc4e790cf7d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.11000003.tgz
+    version: 0.0.11000003
+  - apiVersion: v1
+    appVersion: 0.0.11000001
+    created: "2022-01-14T22:44:32.339724071Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e5c584888e4876bd52dd63cec9178d7408a6474ee382d427fd6d647318551727
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.11000001.tgz
+    version: 0.0.11000001
+  - apiVersion: v1
+    appVersion: 0.0.11000000
+    created: "2022-01-14T22:44:32.323939599Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b443a0ece211be93559d2bf277658df5c1ee0167cb461858acf2723cfbdd1edc
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.11000000.tgz
+    version: 0.0.11000000
+  - apiVersion: v1
+    appVersion: 0.0.10000000
+    created: "2022-01-14T22:44:32.093216595Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f954f1c488470a16dc397d619f0549f64791f86d0046fb121a051d320a69d27d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.10000000.tgz
+    version: 0.0.10000000
+  - apiVersion: v1
+    appVersion: 0.0.5000000
+    created: "2022-01-14T22:44:33.665989175Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e3a7533a5f54306c0113be519afab56ff36b9bb09974ac499674e7104afc476d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.5000000.tgz
+    version: 0.0.5000000
+  - apiVersion: v1
+    appVersion: 0.0.3000000
+    created: "2022-01-14T22:44:33.308654355Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ad4188465e71ba54189a0e1abd5089cd680f7ec088ea0ac8a005518dcc9a592f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.3000000.tgz
+    version: 0.0.3000000
+  - apiVersion: v1
+    appVersion: 0.0.1000003
+    created: "2022-01-14T22:44:32.1085557Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 294c39d6723a206493d961b0df941317131bdaf7b36ca998191e4dae4292efe0
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1000003.tgz
+    version: 0.0.1000003
+  - apiVersion: v1
+    appVersion: 0.0.999999-rc.0
+    created: "2022-01-14T22:44:34.556378449Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 59f8f079d3c588768054fda17cd1680004fe2e33c0a2b120fbcbd0c346b0348a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.999999-rc.0.tgz
+    version: 0.0.999999-rc.0
+  - apiVersion: v1
+    appVersion: 0.0.900010
+    created: "2022-01-14T22:44:34.447387715Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8f3a5017f231badf1b912134d675747567c2645869f4ef06dd0c715b25c99107
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.900010.tgz
+    version: 0.0.900010
+  - apiVersion: v1
+    appVersion: 0.0.900000
+    created: "2022-01-14T22:44:34.417336869Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ed542f2498277f5f0a72624c21c8650169627fc1ab23cec99397ee3b939892a6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.900000.tgz
+    version: 0.0.900000
+  - apiVersion: v1
+    appVersion: 0.0.800007
+    created: "2022-01-14T22:44:34.254881862Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b198815767245bee9627524bcca9aa8623c18f48a7868483427875bc8ac28152
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.800007.tgz
+    version: 0.0.800007
+  - apiVersion: v1
+    appVersion: 0.0.800001
+    created: "2022-01-14T22:44:34.239017561Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: add40183f056cedb86d5a6bff9e348b8581a48ee678b48aedcbfa8d85ad41a29
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.800001.tgz
+    version: 0.0.800001
+  - apiVersion: v1
+    appVersion: 0.0.700010
+    created: "2022-01-14T22:44:34.065882521Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 17ca3ac644cc2aef66cedb35e9e53658fbd1678776c43650a83746b0bd367881
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.700010.tgz
+    version: 0.0.700010
+  - apiVersion: v1
+    appVersion: 0.0.600000
+    created: "2022-01-14T22:44:33.873927266Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 1d0e5ecd65493db0ce96631c64b3d3c04fb1f5dd6f2bb89b2ed938931f21abb9
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.600000.tgz
+    version: 0.0.600000
+  - apiVersion: v1
+    appVersion: 0.0.500000
+    created: "2022-01-14T22:44:33.650396677Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 620010185ba6bc38b43a597ec7180b57d6ef7726fad2592a03253455f7bea8d5
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.500000.tgz
+    version: 0.0.500000
+  - apiVersion: v1
+    appVersion: 0.0.400000
+    created: "2022-01-14T22:44:33.471514283Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c78a427135e89bc82b83f23bc951f45c855dda47bea3637f67e472c1dba311ed
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.400000.tgz
+    version: 0.0.400000
+  - apiVersion: v1
+    appVersion: 0.0.300004
+    created: "2022-01-14T22:44:33.355336478Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 737c88a050f402f29d4432eaafdaf89d7cb293e67f45346f6ced553513896c9e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.300004.tgz
+    version: 0.0.300004
+  - apiVersion: v1
+    appVersion: 0.0.300003
+    created: "2022-01-14T22:44:33.339889674Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 53e3fea42429abcbc60eb930f89b714790d2e29ae3e2881efff3e33e0f353649
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.300003.tgz
+    version: 0.0.300003
+  - apiVersion: v1
+    appVersion: 0.0.300001
+    created: "2022-01-14T22:44:33.324414343Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3669cbeb886bfa254e69abbe317e0a564ed4b2d6dc22b1cc1d2ba2ca039ebdf6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.300001.tgz
+    version: 0.0.300001
+  - apiVersion: v1
+    appVersion: 0.0.300000
+    created: "2022-01-14T22:44:33.293271099Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4dd73b10a364ac3bd22bcd5ba0331c966c8935d28e357261609608e4994c9ee2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.300000.tgz
+    version: 0.0.300000
+  - apiVersion: v1
+    appVersion: 0.0.250007
+    created: "2022-01-14T22:44:33.250911029Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 6649ce5c528deb412582c005e4fb880c0d6bd78f30c16a2dd52502a8072f0bc3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.250007.tgz
+    version: 0.0.250007
+  - apiVersion: v1
+    appVersion: 0.0.250006
+    created: "2022-01-14T22:44:33.234544783Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8905bd468ac0f40262cd9419c84a2e07e38eb2c9f7c3d2b675daf33d127f6f32
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.250006.tgz
+    version: 0.0.250006
+  - apiVersion: v1
+    appVersion: 0.0.250001
+    created: "2022-01-14T22:44:33.218456948Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 33e5624d551cee5c5103ec6356ce83970a8b9b8c343dea1462bbedbd28a77491
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.250001.tgz
+    version: 0.0.250001
+  - apiVersion: v1
+    appVersion: 0.0.250000
+    created: "2022-01-14T22:44:33.202122504Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e3050a220c7f43f5da657e800abf1274742a3f3f808d1a0a872e7c99d3de397a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.250000.tgz
+    version: 0.0.250000
+  - apiVersion: v1
+    appVersion: 0.0.200001
+    created: "2022-01-14T22:44:33.128904694Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8ba45e80aa1f582a84a4e81aa2c3658f6b65360c19559416937a75f4850e1c0b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.200001.tgz
+    version: 0.0.200001
+  - apiVersion: v1
+    appVersion: 0.0.140000
+    created: "2022-01-14T22:44:32.805699307Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4564bc2b1e630d6de956de92452b9ef1f93d76224264c8c9765b0aaf2d002fec
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.140000.tgz
+    version: 0.0.140000
+  - apiVersion: v1
+    appVersion: 0.0.130000
+    created: "2022-01-14T22:44:32.651236217Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b1d62929ba58e3250ed0d00769c5663cd9914900641549938ec78754d00f9974
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.130000.tgz
+    version: 0.0.130000
+  - apiVersion: v1
+    appVersion: 0.0.120004
+    created: "2022-01-14T22:44:32.512623685Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 079109f72e0708b8fbed42e367c85feda7b423913f5bc42fe9edac22fca3bfa8
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.120004.tgz
+    version: 0.0.120004
+  - apiVersion: v1
+    appVersion: 0.0.120003
+    created: "2022-01-14T22:44:32.497441117Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 20cd00351f3a2c4b7413add477120240bc7bc02ea77df609102f89b28042f0fe
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.120003.tgz
+    version: 0.0.120003
+  - apiVersion: v1
+    appVersion: 0.0.110000
+    created: "2022-01-14T22:44:32.307910658Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b77dad200bb2b4975a3f312d6f8ed1b95f6d6a6a51a0919e8bcd65329cea5648
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.110000.tgz
+    version: 0.0.110000
+  - apiVersion: v1
+    appVersion: 0.0.90001
+    created: "2022-01-14T22:44:34.432316721Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c13c59857c9eb97aaa1977a17655d1523edcc3161d69fb54ba861cfbb2cf00a4
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.90001.tgz
+    version: 0.0.90001
+  - apiVersion: v1
+    appVersion: 0.0.90000
+    created: "2022-01-14T22:44:34.402184945Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: d6bd9236076db7b4b79c55b7fd88f241557111fda613c6da14a18101cac33f2e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.90000.tgz
+    version: 0.0.90000
+  - apiVersion: v1
+    appVersion: 0.0.70000
+    created: "2022-01-14T22:44:34.049826661Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 9e9040ef8d9ed1f65964918d119fefb9311e2dc088a963bf59b112c989a7be9c
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.70000.tgz
+    version: 0.0.70000
+  - apiVersion: v1
+    appVersion: 0.0.60000
+    created: "2022-01-14T22:44:33.858251409Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 85ddf32ac2cfb3a312cf6b40cbe433e199375be2eb22cd8e3b91b0c732ce7b80
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.60000.tgz
+    version: 0.0.60000
+  - apiVersion: v1
+    appVersion: 0.0.52004
+    created: "2022-01-14T22:44:33.721922882Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4203da416f9423022589c8b73003cb97d52d92ffbaee4ff42699d5cd76a2a348
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.52004.tgz
+    version: 0.0.52004
+  - apiVersion: v1
+    appVersion: 0.0.52001
+    created: "2022-01-14T22:44:33.707325616Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 58680bccc94cf79402dee684da964966501efad64b8cfd7559fd0ddd718a62e2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.52001.tgz
+    version: 0.0.52001
+  - apiVersion: v1
+    appVersion: 0.0.51000
+    created: "2022-01-14T22:44:33.692772997Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 223c97b9ba5d7e1c800c0e5d841f9fec88b55fd16e58601cefb91a0566b2d69e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.51000.tgz
+    version: 0.0.51000
+  - apiVersion: v1
+    appVersion: 0.0.50000
+    created: "2022-01-14T22:44:33.63318942Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 82aff311ad7f9b18ec8cd70bf8ab80fadcb215411b525ae724736982069cfa2e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.50000.tgz
+    version: 0.0.50000
+  - apiVersion: v1
+    appVersion: 0.0.40002
+    created: "2022-01-14T22:44:33.486582763Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f58f04c7e481ebe9c187d5a2fc84c9d1d442b2cf86df326d171779a4836dd7df
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.40002.tgz
+    version: 0.0.40002
+  - apiVersion: v1
+    appVersion: 0.0.30001
+    created: "2022-01-14T22:44:33.369972152Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3204bffceb4a1e730ed09f26320828bf451f4e120284da743b372e80f6f6e2de
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.30001.tgz
+    version: 0.0.30001
+  - apiVersion: v1
+    appVersion: 0.0.22000
+    created: "2022-01-14T22:44:33.186132752Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f77d79397311537c47d2b71d7a7d8b4ffafe00c3d9502425115a60506890e527
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.22000.tgz
+    version: 0.0.22000
+  - apiVersion: v1
+    appVersion: 0.0.20003
+    created: "2022-01-14T22:44:33.143376684Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 782840bd8dc1117b51ba1eb78cd7f3d105fed3910c41bc191a0dd168634a5a8e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.20003.tgz
+    version: 0.0.20003
+  - apiVersion: v1
+    appVersion: 0.0.18000
+    created: "2022-01-14T22:44:32.973179418Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ea7a26d2ab0c4eeef0b69e718f1f2f9ac77e3cde43a33e352f67658a8eca0707
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.18000.tgz
+    version: 0.0.18000
+  - apiVersion: v1
+    appVersion: 0.0.15000
+    created: "2022-01-14T22:44:32.849259222Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8bda77fb56f54ae344a09208e0f791044b18d3d44cfeeccdfd8871a196c872cc
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.15000.tgz
+    version: 0.0.15000
+  - apiVersion: v1
+    appVersion: 0.0.13001
+    created: "2022-01-14T22:44:32.666326196Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 58a44475fcd88e2cc37c2a94e05830d1862a08e25e1e499d6e66699893750d2c
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.13001.tgz
+    version: 0.0.13001
+  - apiVersion: v1
+    appVersion: 0.0.12000
+    created: "2022-01-14T22:44:32.482205332Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b8136ef901dce8a7971661d513037a44d61d17444420c1c26c4dde5019c8b84b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.12000.tgz
+    version: 0.0.12000
+  - apiVersion: v1
+    appVersion: 0.0.10006
+    created: "2022-01-14T22:44:32.138078592Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ddb5fce894d1d3802263cea189ed1f19a3edb1befad86af67bf4fe3a6380a09a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.10006.tgz
+    version: 0.0.10006
+  - apiVersion: v1
+    appVersion: 0.0.10001
+    created: "2022-01-14T22:44:32.123637427Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b283c6f33444bda5a05e4327a3a0b7de5ec4358a7e3321bcc7c58b3a61670f0f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.10001.tgz
+    version: 0.0.10001
+  - apiVersion: v1
+    appVersion: 0.0.10000
+    created: "2022-01-14T22:44:32.077311983Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 04601163c7b9be7059d2eb1e1ec3721d7bcd6290a67c80106bad6f1399ce7abf
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.10000.tgz
+    version: 0.0.10000
+  - apiVersion: v1
+    appVersion: 0.0.9000
+    created: "2022-01-14T22:44:34.387318968Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 85d7bc0a59628fe121c259813adc9ff49526c363854017ec48a361bcc5648366
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.9000.tgz
+    version: 0.0.9000
+  - apiVersion: v1
+    appVersion: 0.0.8001
+    created: "2022-01-14T22:44:34.269159538Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 14126574b447c8c2fd41e0e0e4d54bf0f2aeac8fe1dde66002eb20991306fee8
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.8001.tgz
+    version: 0.0.8001
+  - apiVersion: v1
+    appVersion: 0.0.7005
+    created: "2022-01-14T22:44:34.092566886Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fa037a008d0838db910cde893fd2c95202565bd595806d14215b2d3208faa05e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.7005.tgz
+    version: 0.0.7005
+  - apiVersion: v1
+    appVersion: 0.0.7003
+    created: "2022-01-14T22:44:34.078678603Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e793b29b113fa49e8cdd61863a19fbed072fae1e1f6104c1a9955f3a7f0f19c0
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.7003.tgz
+    version: 0.0.7003
+  - apiVersion: v1
+    appVersion: 0.0.6003
+    created: "2022-01-14T22:44:33.887782203Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 18abec50beebf687918762a8e306be002acf441b56c94b2ff8f00ab8a0a89d9e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.6003.tgz
+    version: 0.0.6003
+  - apiVersion: v1
+    appVersion: 0.0.6000
+    created: "2022-01-14T22:44:33.842850462Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ff7b09967624753ae2db972906d1f6cf31c3cb593f349f5923ad21bfa7e0ff1e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.6000.tgz
+    version: 0.0.6000
+  - apiVersion: v1
+    appVersion: 0.0.4005
+    created: "2022-01-14T22:44:33.500536008Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 987e66a58a3beb69caf467ec3f1514228f4b47626b8cf1c05075abc4ed1607ea
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.4005.tgz
+    version: 0.0.4005
+  - apiVersion: v1
+    appVersion: 0.0.3001
+    created: "2022-01-14T22:44:33.383583832Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: dcb5961680d0a67507589d3862b9b173f55b2118d71a80d96ab044d353b0c211
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.3001.tgz
+    version: 0.0.3001
+  - apiVersion: v1
+    appVersion: 0.0.2900
+    created: "2022-01-14T22:44:33.277661412Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 53a95513e42be73eb809873e09626fc22389bef05af51930ddfc4566d569426d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.2900.tgz
+    version: 0.0.2900
+  - apiVersion: v1
+    appVersion: 0.0.2602
+    created: "2022-01-14T22:44:33.263398953Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 017675cfac802e89900813f3f5b77d01f4b42f6dea433679e4139ea15f3fade2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.2602.tgz
+    version: 0.0.2602
+  - apiVersion: v1
+    appVersion: 0.0.2100
+    created: "2022-01-14T22:44:33.169458521Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fa7fdb649a9911348f1182a5496d44944e3efe867b79f3df18ca0f8c6cb081d0
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.2100.tgz
+    version: 0.0.2100
+  - apiVersion: v1
+    appVersion: 0.0.2005
+    created: "2022-01-14T22:44:33.15653057Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4364b3b4c8a6486498d4016c9ed6336a09e0a9190767d027e2e2f5cb445b541f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.2005.tgz
+    version: 0.0.2005
+  - apiVersion: v1
+    appVersion: 0.0.1909
+    created: "2022-01-14T22:44:33.068097335Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 74e50baecbb08a82c7264edbfd6fb6059382191620c7fd2b0d11f819b57db99c
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1909.tgz
+    version: 0.0.1909
+  - apiVersion: v1
+    appVersion: 0.0.1908
+    created: "2022-01-14T22:44:33.054056055Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: cea8899bdafb1bd3d9c7cb76bbb11d08effa63fa96aff80fcd6ac038e4d15fd3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1908.tgz
+    version: 0.0.1908
+  - apiVersion: v1
+    appVersion: 0.0.1902
+    created: "2022-01-14T22:44:33.04006097Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8ef942967575416efe5cd98d65620909afd5b5aaab0574471de9fd4107e52a3b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1902.tgz
+    version: 0.0.1902
+  - apiVersion: v1
+    appVersion: 0.0.1901
+    created: "2022-01-14T22:44:33.026085032Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ed932a56bcae08470aacb9a0fe0f2809c74da0c72816942a8522e1ac05021fc7
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1901.tgz
+    version: 0.0.1901
+  - apiVersion: v1
+    appVersion: 0.0.1900
+    created: "2022-01-14T22:44:33.012370288Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 26fc6dfa3d03e3b2b9e7de6497bd3efb5c884cddbeab0d2e2b9f49f5f34a2f30
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1900.tgz
+    version: 0.0.1900
+  - apiVersion: v1
+    appVersion: 0.0.1805
+    created: "2022-01-14T22:44:32.985182479Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fd77e3998d3e16f3418f95255c8cd97265af889ceaa23a7abd39f8cf3ca8fbfe
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1805.tgz
+    version: 0.0.1805
+  - apiVersion: v1
+    appVersion: 0.0.1800
+    created: "2022-01-14T22:44:32.958298385Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 38f064050227442d545564e433567a2d2b1411e9ca302f0cd14395025b5dabbe
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1800.tgz
+    version: 0.0.1800
+  - apiVersion: v1
+    appVersion: 0.0.1701
+    created: "2022-01-14T22:44:32.903844211Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8bf019c2a417c3200b3e570ee906d8dcde894829451a2d4ca0eafeb282993dbd
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1701.tgz
+    version: 0.0.1701
+  - apiVersion: v1
+    appVersion: 0.0.1700
+    created: "2022-01-14T22:44:32.889170528Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3dfdd623e1e0b132e4a9ea8cbf204caf6c897747dbd00cdd3c697b500be0e1de
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1700.tgz
+    version: 0.0.1700
+  - apiVersion: v1
+    appVersion: 0.0.1600
+    created: "2022-01-14T22:44:32.863591818Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f749a29a06c2ef952b208e482370606e3fee89f4db6c42f7495bf2e0d27f4a9b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1600.tgz
+    version: 0.0.1600
+  - apiVersion: v1
+    appVersion: 0.0.1500
+    created: "2022-01-14T22:44:32.83306226Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 0c1e19feefcd7fcae391ded70d78d44011704e0ac1eaa35a9047001e0d4bc895
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1500.tgz
+    version: 0.0.1500
+  - apiVersion: v1
+    appVersion: 0.0.1400
+    created: "2022-01-14T22:44:32.790395568Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2c5816dbce1b3fad64a9f50fc8f62ff8e7e690ef1f63741d8c5eb3147d220fd5
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1400.tgz
+    version: 0.0.1400
+  - apiVersion: v1
+    appVersion: 0.0.1302
+    created: "2022-01-14T22:44:32.680350189Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b61e17014529b81a94a411bef40074fa12b098e68ad68a37546ffd54587d6308
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1302.tgz
+    version: 0.0.1302
+  - apiVersion: v1
+    appVersion: 0.0.1300
+    created: "2022-01-14T22:44:32.635835936Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c947edde756cac0015d5de176f42acd95ac07344f1e883302ee659de982e7d6f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1300.tgz
+    version: 0.0.1300
+  - apiVersion: v1
+    appVersion: 0.0.1201
+    created: "2022-01-14T22:44:32.526416292Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3983e0efcf61eecececd5b43d509d49d95e57667069ed4ba1ff111dab360f95c
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1201.tgz
+    version: 0.0.1201
+  - apiVersion: v1
+    appVersion: 0.0.1200
+    created: "2022-01-14T22:44:32.467429565Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fd06e93bef094e2401d288fbc9c633e42269a89689082140c6efc9a554732a6a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1200.tgz
+    version: 0.0.1200
+  - apiVersion: v1
+    appVersion: 0.0.1013
+    created: "2022-01-14T22:44:32.21037512Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 31dbb2d13c9c5029c359a3e63d447f7d6ff913a07bbdc18dea24a09b008841ec
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1013.tgz
+    version: 0.0.1013
+  - apiVersion: v1
+    appVersion: 0.0.1012
+    created: "2022-01-14T22:44:32.195920962Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ca43be8d6b7e27f9e1cde3b83811cb6bc606fedcc3380e3f29adc081c6109adc
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1012.tgz
+    version: 0.0.1012
+  - apiVersion: v1
+    appVersion: 0.0.1010
+    created: "2022-01-14T22:44:32.182115253Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2a94300573c28773c09a453a258713e47d975f018c1e18e7bd4b5b54d3f886b3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1010.tgz
+    version: 0.0.1010
+  - apiVersion: v1
+    appVersion: 0.0.1001
+    created: "2022-01-14T22:44:32.153722549Z"
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 9a07aa34485af1c4fb2ca3546ad01a6a431f2adcb605a7f598bed0e946ac326a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.1001.tgz
+    version: 0.0.1001
+  - apiVersion: v1
+    appVersion: 0.0.200
+    created: "2022-01-14T22:44:33.082411662Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c02b04ad77b555f596b5967436043e3a6faa68343df566d2ad5c101fd0f39223
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.200.tgz
+    version: 0.0.200
+  - apiVersion: v1
+    appVersion: 0.0.181
+    created: "2022-01-14T22:44:32.998345886Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 9a1ec5fd76070bdf4eee852f2ab6b5c697f949cbfc83c5dcf9c525e8520228ae
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.181.tgz
+    version: 0.0.181
+  - apiVersion: v1
+    appVersion: 0.0.180
+    created: "2022-01-14T22:44:32.944284823Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: d3a34d0b963043b8ed3796df49ca00b56d8c72422775ef579f5d07b530e9e1c1
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.180.tgz
+    version: 0.0.180
+  - apiVersion: v1
+    appVersion: 0.0.172
+    created: "2022-01-14T22:44:32.930681419Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 15e4c24df9ab6dfb68df0f0ee143381a530b4e97400bd4dff0d8599fd69161a2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.172.tgz
+    version: 0.0.172
+  - apiVersion: v1
+    appVersion: 0.0.171
+    created: "2022-01-14T22:44:32.917098342Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 77db0f101e6a2d98f5c6b2b1ddb743b511feba3bcd7b8dae2623abdb07ee0bb6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.171.tgz
+    version: 0.0.171
+  - apiVersion: v1
+    appVersion: 0.0.170
+    created: "2022-01-14T22:44:32.87563124Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: cc31e1359c0992eced5dc28ed054c1fac46ad61f736c4d4cbcfd91a572e51e26
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.170.tgz
+    version: 0.0.170
+  - apiVersion: v1
+    appVersion: 0.0.142
+    created: "2022-01-14T22:44:32.819143336Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 974325b972241798e70e9a9ac27bedc2f1f0c301184e0ddd65710ee133019245
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.142.tgz
+    version: 0.0.142
+  - apiVersion: v1
+    appVersion: 0.0.140
+    created: "2022-01-14T22:44:32.776619784Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 28a4c0911be4bed964b4ce6ec14097b46047bc38016361f9988890461b0f43ad
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.140.tgz
+    version: 0.0.140
+  - apiVersion: v1
+    appVersion: 0.0.138
+    created: "2022-01-14T22:44:32.763324942Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 388e2393e26e5d20678d05e4aef103e16e6c1cd094ab395fa5875bd2ba5b83cb
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.138.tgz
+    version: 0.0.138
+  - apiVersion: v1
+    appVersion: 0.0.137
+    created: "2022-01-14T22:44:32.749691158Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f6102700eefd62fa9be30d020e2cf8500afe1e35412f5ac868800b1184b3566d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.137.tgz
+    version: 0.0.137
+  - apiVersion: v1
+    appVersion: 0.0.136
+    created: "2022-01-14T22:44:32.73588008Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 22eaa60f955425d44f19197bd7138d7757c24297f63bea5042c7b7f1e90c83e2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.136.tgz
+    version: 0.0.136
+  - apiVersion: v1
+    appVersion: 0.0.135
+    created: "2022-01-14T22:44:32.722861801Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c3951ac5461c0f6271142e1ff110a1fda691546ade53ae16bf48fd8b62001c38
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.135.tgz
+    version: 0.0.135
+  - apiVersion: v1
+    appVersion: 0.0.132
+    created: "2022-01-14T22:44:32.708256744Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 747e6ffa4212e23427520bdd94ab39a3dce41adbbeb018b8caa707aa4bf5a8bd
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.132.tgz
+    version: 0.0.132
+  - apiVersion: v1
+    appVersion: 0.0.131
+    created: "2022-01-14T22:44:32.694267554Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3d814700f0c330a28df956d5a75a1f3ede256ba4873eb536404db44f3f24bd9f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.131.tgz
+    version: 0.0.131
+  - apiVersion: v1
+    appVersion: 0.0.130
+    created: "2022-01-14T22:44:32.621944772Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 848e959c188dfee675594bf4e1169e067f3edd6771d4e4c3a2a2042ee8609b4b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.130.tgz
+    version: 0.0.130
+  - apiVersion: v1
+    appVersion: 0.0.129
+    created: "2022-01-14T22:44:32.607652313Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f8476f56043fdfd99911a812007f29e2cd1aa45713dc3fa4f55572c25e658ec7
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.129.tgz
+    version: 0.0.129
+  - apiVersion: v1
+    appVersion: 0.0.127
+    created: "2022-01-14T22:44:32.595253945Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f5402c2baf2b2fa024a29b6befb1b675a91469525b6894ef80f3c9dc1b7ea56a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.127.tgz
+    version: 0.0.127
+  - apiVersion: v1
+    appVersion: 0.0.126
+    created: "2022-01-14T22:44:32.580199521Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 0881bc65a5d7d53c8b9e6a6c291ffe0e17c534a876fce1c2805b145baea31e83
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.126.tgz
+    version: 0.0.126
+  - apiVersion: v1
+    appVersion: 0.0.124
+    created: "2022-01-14T22:44:32.567612001Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fdd90ad39a29dde2bac4ad72a0c1d5ea2059ee445f7572e06c985b93bbbced2c
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.124.tgz
+    version: 0.0.124
+  - apiVersion: v1
+    appVersion: 0.0.123
+    created: "2022-01-14T22:44:32.553418055Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 951293ca0324ef38c31979c4cfc662ac3ff04eb5c15db504384554ce20ad1d40
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.123.tgz
+    version: 0.0.123
+  - apiVersion: v1
+    appVersion: 0.0.121
+    created: "2022-01-14T22:44:32.539729399Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2b0f12954d0ba623f0ca5baf0806ba9186eafa6b7b063e483dd07756f0c7bad9
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.121.tgz
+    version: 0.0.121
+  - apiVersion: v1
+    appVersion: 0.0.120
+    created: "2022-01-14T22:44:32.453396597Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3d85509444268a642e9379feae2ccbf039bc07348e7d6f4ec458d7df8d4fdf1e
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.120.tgz
+    version: 0.0.120
+  - apiVersion: v1
+    appVersion: 0.0.119
+    created: "2022-01-14T22:44:32.440427454Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e17b5716ad549786381a2504a194589fd8190ae07d2a76662ad970a0d817e3ed
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.119.tgz
+    version: 0.0.119
+  - apiVersion: v1
+    appVersion: 0.0.118
+    created: "2022-01-14T22:44:32.426467132Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4298466a7071fa5497a7491d83a395f02bd77a890b741a05bc28f998fac7e2b6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.118.tgz
+    version: 0.0.118
+  - apiVersion: v1
+    appVersion: 0.0.117
+    created: "2022-01-14T22:44:32.412393176Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 1024acb717c495027aefa90842d7a4536ec777d3f6ca4dbae07198befff60b60
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.117.tgz
+    version: 0.0.117
+  - apiVersion: v1
+    appVersion: 0.0.116
+    created: "2022-01-14T22:44:32.398181097Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4e555977303bca8f8f2174934ca6a5229723d7252a60d44223a96581ab9571e4
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.116.tgz
+    version: 0.0.116
+  - apiVersion: v1
+    appVersion: 0.0.115
+    created: "2022-01-14T22:44:32.383994937Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4d4c5e437c15f3994bd78a0158e2365d055838f60bf3aec0e2b230be38a3fdcb
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.115.tgz
+    version: 0.0.115
+  - apiVersion: v1
+    appVersion: 0.0.109
+    created: "2022-01-14T22:44:32.292230714Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: bc1f6b7cd04e9b29e96821aebb9d15e588f6aba298ac65c5f1a1bc27196d7f4a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.109.tgz
+    version: 0.0.109
+  - apiVersion: v1
+    appVersion: 0.0.108
+    created: "2022-01-14T22:44:32.278761102Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 9f3aba04df533579021fad8581cecbe1bf6a2562cfac6a4269e253fa4336615a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.108.tgz
+    version: 0.0.108
+  - apiVersion: v1
+    appVersion: 0.0.107
+    created: "2022-01-14T22:44:32.265254756Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: bc68e0ead6273078f57e198fe845b5c5983f0e53d87ffd92abfea630f399b2b1
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.107.tgz
+    version: 0.0.107
+  - apiVersion: v1
+    appVersion: 0.0.106
+    created: "2022-01-14T22:44:32.251196355Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 3fc764e3ee0a7e1bd98c38f7522ffc32858ca83806fc6bd9646705284c2edb43
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.106.tgz
+    version: 0.0.106
+  - apiVersion: v1
+    appVersion: 0.0.104
+    created: "2022-01-14T22:44:32.236499254Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e907074b6bbd91bb14c6789e706461c968ad7a9b32ef599208282768dab5bce1
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.104.tgz
+    version: 0.0.104
+  - apiVersion: v1
+    appVersion: 0.0.102
+    created: "2022-01-14T22:44:32.22382886Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 13596d5a2fb177f7f29521162abeef27dddfbed4b5cf2a7604d74054a013002b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.102.tgz
+    version: 0.0.102
+  - apiVersion: v1
+    appVersion: 0.0.101
+    created: "2022-01-14T22:44:32.167869307Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 55dcc758c263f5b7d90d039001bdbd764e502de77943e7e71c399b7731237c5b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.101.tgz
+    version: 0.0.101
+  - apiVersion: v1
+    appVersion: 0.0.100
+    created: "2022-01-14T22:44:32.062397144Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4c2f80394261ca1e6916df013e12b359a3bbbc1e61d0360d0db93ccd726bf4c1
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.100.tgz
+    version: 0.0.100
+  - apiVersion: v1
+    appVersion: 0.0.99
+    created: "2022-01-14T22:44:34.540711581Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 0bf48cc16df6c0d1e4953a452c553f047ad56bcb838d0ae1f7eb2d2200af1b54
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.99.tgz
+    version: 0.0.99
+  - apiVersion: v1
+    appVersion: 0.0.98
+    created: "2022-01-14T22:44:34.527015804Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: affbaf0b167cf25575bb8c7c30d6d1e3f5d2cb8fc179f52d149a091aed5607e3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.98.tgz
+    version: 0.0.98
+  - apiVersion: v1
+    appVersion: 0.0.95
+    created: "2022-01-14T22:44:34.513755208Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: d997a9a70861174a56a97747077afc1ffc3f1dc18a64a12d2417decf9900e070
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.95.tgz
+    version: 0.0.95
+  - apiVersion: v1
+    appVersion: 0.0.94
+    created: "2022-01-14T22:44:34.50025856Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2a2af7fcc63940de8f038c261f14fc205d0a052d82f840df28f7fd52aabf2bec
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.94.tgz
+    version: 0.0.94
+  - apiVersion: v1
+    appVersion: 0.0.93
+    created: "2022-01-14T22:44:34.488015032Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 8462ee536d0bd49cc9fa44c31d6bf10cd5462d111255ec21a64652872dbd40d3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.93.tgz
+    version: 0.0.93
+  - apiVersion: v1
+    appVersion: 0.0.92
+    created: "2022-01-14T22:44:34.474249132Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 794f01c1d2e8fa12e0ae0bb44d24635871fb5af060420586a0e64f10426b7006
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.92.tgz
+    version: 0.0.92
+  - apiVersion: v1
+    appVersion: 0.0.91
+    created: "2022-01-14T22:44:34.460788933Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: d7cc58f6020c54829f4208d3a76160c9bdab09d7a1e9cdce002ea5ad04fbd84b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.91.tgz
+    version: 0.0.91
+  - apiVersion: v1
+    appVersion: 0.0.89
+    created: "2022-01-14T22:44:34.372868927Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ed6a9e1c533be46510bacd8f02065afeab84a1326ba8ed9c46161a03b8ebe129
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.89.tgz
+    version: 0.0.89
+  - apiVersion: v1
+    appVersion: 0.0.88
+    created: "2022-01-14T22:44:34.359609123Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 7d762bfde6fcd88831586f1a7addd3ddd7ffc0e2d9510ba62cff82ffeebb0124
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.88.tgz
+    version: 0.0.88
+  - apiVersion: v1
+    appVersion: 0.0.87
+    created: "2022-01-14T22:44:34.34789564Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 08ff731931d19cea3fb8370e9f0734457edab0902f893e1f0f68b1d75e610a2a
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.87.tgz
+    version: 0.0.87
+  - apiVersion: v1
+    appVersion: 0.0.85
+    created: "2022-01-14T22:44:34.334394107Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: afa15fa37e686d2bbe4816660b9b544a042992fca3cf8fe2ba1e655c6e9427d3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.85.tgz
+    version: 0.0.85
+  - apiVersion: v1
+    appVersion: 0.0.84
+    created: "2022-01-14T22:44:34.32121669Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c2441ac578e3765da91d279cd103bcc466a4675a04cbf41549589a651879cbc1
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.84.tgz
+    version: 0.0.84
+  - apiVersion: v1
+    appVersion: 0.0.83
+    created: "2022-01-14T22:44:34.308307707Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2b55ff467336546e14e1a979aae860935214e44e030374851262e61f600c885b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.83.tgz
+    version: 0.0.83
+  - apiVersion: v1
+    appVersion: 0.0.82
+    created: "2022-01-14T22:44:34.294716968Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: ca26ef60d44d18b563d7f1cb3beab70a60bffbaaa8daee675fc33b4ed22bdab6
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.82.tgz
+    version: 0.0.82
+  - apiVersion: v1
+    appVersion: 0.0.81
+    created: "2022-01-14T22:44:34.282661991Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: c24ce022cd8ed1e8dbe7cac295e67506aec571f650e328ea898a6c3465498db3
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.81.tgz
+    version: 0.0.81
+  - apiVersion: v1
+    appVersion: 0.0.80
+    created: "2022-01-14T22:44:34.223443118Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 32df4fdb86e218add6a9d07a5ac9e61483342abe7340a5afd0d0c3deb6b7358b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.80.tgz
+    version: 0.0.80
+  - apiVersion: v1
+    appVersion: 0.0.79
+    created: "2022-01-14T22:44:34.209980031Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: aad802f9103d14467235eef7f7af78eb1b29aa3e905bc669dc395ef7bfa23467
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.79.tgz
+    version: 0.0.79
+  - apiVersion: v1
+    appVersion: 0.0.78
+    created: "2022-01-14T22:44:34.196532454Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: f18b6618b913bfb0eae1fe364cc90c6ba6465b7271bc0d3ab93a305940b894bf
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.78.tgz
+    version: 0.0.78
+  - apiVersion: v1
+    appVersion: 0.0.77
+    created: "2022-01-14T22:44:34.183661876Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 5dcb58aed5c442145edf7eddd4bb12dd90a66ef060af47fcedbd8e3ca5285c1f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.77.tgz
+    version: 0.0.77
+  - apiVersion: v1
+    appVersion: 0.0.76
+    created: "2022-01-14T22:44:34.171838185Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 159fd32932bc5dcb34bcf9297cdde3a98de8592781da6bfd2fd06e1b45aa9e40
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.76.tgz
+    version: 0.0.76
+  - apiVersion: v1
+    appVersion: 0.0.75
+    created: "2022-01-14T22:44:34.158458476Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4256cb2763a66a4812f6d0904ebc58f74da8441db9418e983af3319f1c192259
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.75.tgz
+    version: 0.0.75
+  - apiVersion: v1
+    appVersion: 0.0.74
+    created: "2022-01-14T22:44:34.144699859Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: b3b586f84f9131f7aaf6b6c0c8f2188f04265e545d9e25350d5e4e09316dc6d2
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.74.tgz
+    version: 0.0.74
+  - apiVersion: v1
+    appVersion: 0.0.73
+    created: "2022-01-14T22:44:34.131555733Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 0c47a3acd83fd4b3eaf4dafa72838f77e2fe5e12e2b40c3eb134b5945355bf5d
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.73.tgz
+    version: 0.0.73
+  - apiVersion: v1
+    appVersion: 0.0.72
+    created: "2022-01-14T22:44:34.118807443Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 9a8cf590e9d20f9331a2261922f5580e9fd0bd46eadb857342de5776ce731bbe
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.72.tgz
+    version: 0.0.72
+  - apiVersion: v1
+    appVersion: 0.0.71
+    created: "2022-01-14T22:44:34.105715243Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: e4e197e601de5890c4bb26aabb059223e0326fab916394c56fb80ca785bd0e72
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.71.tgz
+    version: 0.0.71
+  - apiVersion: v1
+    appVersion: 0.0.70
+    created: "2022-01-14T22:44:34.034353993Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: dfb629ed4ee5d77379229b53fca31af8bbc1b1db4e61fd87849dc1093db98b8b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.70.tgz
+    version: 0.0.70
+  - apiVersion: v1
+    appVersion: 0.0.69
+    created: "2022-01-14T22:44:34.017766907Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 4b36842e401ee01009529bf882fc3ecac6196d456ec6dd1d8cfc1483e913580b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.69.tgz
+    version: 0.0.69
+  - apiVersion: v1
+    appVersion: 0.0.68
+    created: "2022-01-14T22:44:33.999184175Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 2af0ff0b5738139eae27128e7bf5ffda0e8ac75f39059f2957206fe484bab0e8
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.68.tgz
+    version: 0.0.68
+  - apiVersion: v1
+    appVersion: 0.0.67
+    created: "2022-01-14T22:44:33.983134476Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 1c053ee5e2a309bffdbdda6707c0348dbe487631b5e360620b2637bd145ebff5
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.67.tgz
+    version: 0.0.67
+  - apiVersion: v1
+    appVersion: 0.0.66
+    created: "2022-01-14T22:44:33.968486757Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: cabb3e3fc8ab6f0924be0fb0ae45a268b4decf23580338d88ff4324adebe7e24
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.66.tgz
+    version: 0.0.66
+  - apiVersion: v1
+    appVersion: 0.0.65
+    created: "2022-01-14T22:44:33.954603746Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: fd4f1adfc2d5821de57a21125e1f0e570fec0494a2e2f9f84e446a8d2a8e64de
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.65.tgz
+    version: 0.0.65
+  - apiVersion: v1
+    appVersion: 0.0.64
+    created: "2022-01-14T22:44:33.942447071Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: d12f9e0be905401c6400d4bf07950c215c24e2c6bf8d522feeeed096ea47a6d5
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.64.tgz
+    version: 0.0.64
+  - apiVersion: v1
+    appVersion: 0.0.63
+    created: "2022-01-14T22:44:33.927298451Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 0f3e521c382bec8718ffabec7b62288e58d5d0e063dbbb5fe8ec3decaa9b08e4
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.63.tgz
+    version: 0.0.63
+  - apiVersion: v1
+    appVersion: 0.0.62
+    created: "2022-01-14T22:44:33.915376894Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 983c94fb81b4f165ba58b326d19874f72c27fd2025950c234beae021b4dcd33b
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.62.tgz
+    version: 0.0.62
+  - apiVersion: v1
+    appVersion: 0.0.61
+    created: "2022-01-14T22:44:33.901625267Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 271b9615fd48fc220c01cd4ee216acf2cc338c30e1c8dc2154e8b574b901bf65
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.61.tgz
+    version: 0.0.61
+  - apiVersion: v1
+    appVersion: 0.0.60
+    created: "2022-01-14T22:44:33.828563224Z"
+    dependencies:
+    - condition: global.prometheus.enabled
+      name: prometheus
+      repository: file://./charts/
+      version: 8.15.X
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: file://./charts/
+      version: 1.X.X
+    - condition: global.thanos.enabled
+      name: thanos
+      repository: file://./charts/
+      version: 0.X.X
+    description: A Helm chart that sets up Kubecost, Prometheus, and Grafana to monitor
+      cloud costs.
+    digest: 5db705f5e904a1d249712516203ddbeb27668b752c437ea534a2bb4460d8f21f
+    name: cost-analyzer
+    urls:
+    - cost-analyzer-0.0.60.tgz
+    version: 0.0.60
+  - apiVersion: v1
     appVersion: 0.0.59
-    created: "2021-11-05T05:40:54.039295649Z"
+    created: "2022-01-14T22:44:33.815254362Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -26,7 +3448,7 @@ entries:
     version: 0.0.59
   - apiVersion: v1
     appVersion: 0.0.58
-    created: "2021-11-05T05:40:54.025657562Z"
+    created: "2022-01-14T22:44:33.801704036Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -49,7 +3471,7 @@ entries:
     version: 0.0.58
   - apiVersion: v1
     appVersion: 0.0.57
-    created: "2021-11-05T05:40:54.012153348Z"
+    created: "2022-01-14T22:44:33.788316161Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -72,7 +3494,7 @@ entries:
     version: 0.0.57
   - apiVersion: v1
     appVersion: 0.0.56
-    created: "2021-11-05T05:40:53.997998198Z"
+    created: "2022-01-14T22:44:33.776189343Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -95,7 +3517,7 @@ entries:
     version: 0.0.56
   - apiVersion: v1
     appVersion: 0.0.55
-    created: "2021-11-05T05:40:53.984346465Z"
+    created: "2022-01-14T22:44:33.762190947Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -118,7 +3540,7 @@ entries:
     version: 0.0.55
   - apiVersion: v1
     appVersion: 0.0.54
-    created: "2021-11-05T05:40:53.970785712Z"
+    created: "2022-01-14T22:44:33.7486673Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -141,7 +3563,7 @@ entries:
     version: 0.0.54
   - apiVersion: v1
     appVersion: 0.0.53
-    created: "2021-11-05T05:40:53.957225111Z"
+    created: "2022-01-14T22:44:33.734940474Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -164,7 +3586,7 @@ entries:
     version: 0.0.53
   - apiVersion: v1
     appVersion: 0.0.51
-    created: "2021-11-05T05:40:53.897324291Z"
+    created: "2022-01-14T22:44:33.677829044Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -187,7 +3609,7 @@ entries:
     version: 0.0.51
   - apiVersion: v1
     appVersion: 0.0.49
-    created: "2021-11-05T05:40:53.835887653Z"
+    created: "2022-01-14T22:44:33.618881902Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -210,7 +3632,7 @@ entries:
     version: 0.0.49
   - apiVersion: v1
     appVersion: 0.0.48
-    created: "2021-11-05T05:40:53.821747117Z"
+    created: "2022-01-14T22:44:33.606187835Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -233,7 +3655,7 @@ entries:
     version: 0.0.48
   - apiVersion: v1
     appVersion: 0.0.47
-    created: "2021-11-05T05:40:53.808158716Z"
+    created: "2022-01-14T22:44:33.592427781Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -256,7 +3678,7 @@ entries:
     version: 0.0.47
   - apiVersion: v1
     appVersion: 0.0.46
-    created: "2021-11-05T05:40:53.794243189Z"
+    created: "2022-01-14T22:44:33.57863539Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -279,7 +3701,7 @@ entries:
     version: 0.0.46
   - apiVersion: v1
     appVersion: 0.0.45
-    created: "2021-11-05T05:40:53.779899235Z"
+    created: "2022-01-14T22:44:33.565008153Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -302,7 +3724,7 @@ entries:
     version: 0.0.45
   - apiVersion: v1
     appVersion: 0.0.44
-    created: "2021-11-05T05:40:53.766758028Z"
+    created: "2022-01-14T22:44:33.551781438Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -325,7 +3747,7 @@ entries:
     version: 0.0.44
   - apiVersion: v1
     appVersion: 0.0.43
-    created: "2021-11-05T05:40:53.754566442Z"
+    created: "2022-01-14T22:44:33.538975291Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -348,7 +3770,7 @@ entries:
     version: 0.0.43
   - apiVersion: v1
     appVersion: 0.0.42
-    created: "2021-11-05T05:40:53.741722516Z"
+    created: "2022-01-14T22:44:33.526766945Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -371,7 +3793,7 @@ entries:
     version: 0.0.42
   - apiVersion: v1
     appVersion: 0.0.41
-    created: "2021-11-05T05:40:53.728428064Z"
+    created: "2022-01-14T22:44:33.512591599Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -394,7 +3816,7 @@ entries:
     version: 0.0.41
   - apiVersion: v1
     appVersion: 0.0.40
-    created: "2021-11-05T05:40:53.670029294Z"
+    created: "2022-01-14T22:44:33.455304353Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -417,7 +3839,7 @@ entries:
     version: 0.0.40
   - apiVersion: v1
     appVersion: 0.0.39
-    created: "2021-11-05T05:40:53.656086446Z"
+    created: "2022-01-14T22:44:33.441014079Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -440,7 +3862,7 @@ entries:
     version: 0.0.39
   - apiVersion: v1
     appVersion: 0.0.36
-    created: "2021-11-05T05:40:53.646080585Z"
+    created: "2022-01-14T22:44:33.42935369Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -463,7 +3885,7 @@ entries:
     version: 0.0.36
   - apiVersion: v1
     appVersion: 0.0.35
-    created: "2021-11-05T05:40:53.633892466Z"
+    created: "2022-01-14T22:44:33.417910069Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -486,7 +3908,7 @@ entries:
     version: 0.0.35
   - apiVersion: v1
     appVersion: 0.0.34
-    created: "2021-11-05T05:40:53.622377502Z"
+    created: "2022-01-14T22:44:33.407494392Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -509,7 +3931,7 @@ entries:
     version: 0.0.34
   - apiVersion: v1
     appVersion: 0.0.33
-    created: "2021-11-05T05:40:53.611315582Z"
+    created: "2022-01-14T22:44:33.395047685Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -532,7 +3954,7 @@ entries:
     version: 0.0.33
   - apiVersion: v1
     appVersion: stage-test
-    created: "2021-11-05T05:40:54.831539028Z"
+    created: "2022-01-14T22:44:34.610646639Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -555,7 +3977,7 @@ entries:
     version: stage-test
   - apiVersion: v1
     appVersion: 0.0.
-    created: "2021-11-05T05:40:52.257096463Z"
+    created: "2022-01-14T22:44:32.0481395Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -578,7 +4000,7 @@ entries:
     version: 0.0.
   - apiVersion: v1
     appVersion: stage-29
-    created: "2021-11-05T05:40:54.807735622Z"
+    created: "2022-01-14T22:44:34.588263128Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -601,7 +4023,7 @@ entries:
     version: stage-29
   - apiVersion: v1
     appVersion: stage-28
-    created: "2021-11-05T05:40:54.797149342Z"
+    created: "2022-01-14T22:44:34.577048721Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -624,7 +4046,7 @@ entries:
     version: stage-28
   - apiVersion: v1
     appVersion: stage-27
-    created: "2021-11-05T05:40:54.78494887Z"
+    created: "2022-01-14T22:44:34.566093901Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -647,7 +4069,7 @@ entries:
     version: stage-27
   - apiVersion: v1
     appVersion: stage-test-26
-    created: "2021-11-05T05:40:54.819658213Z"
+    created: "2022-01-14T22:44:34.600346021Z"
     dependencies:
     - condition: global.prometheus.enabled
       name: prometheus
@@ -668,4 +4090,4 @@ entries:
     urls:
     - cost-analyzer-stage-test-26.tgz
     version: stage-test-26
-generated: "2021-11-05T05:40:52.243603055Z"
+generated: "2022-01-14T22:44:32.033559074Z"
